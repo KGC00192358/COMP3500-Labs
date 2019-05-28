@@ -172,7 +172,10 @@ void CPUScheduler(Identifier whichPolicy) {
 ProcessControlBlock *FCFS_Scheduler() {
   /* Select Process based on FCFS */
   // Implement code for FCFS
-  ProcessControlBlock *selectedProcess = (ProcessControlBlock *) NULL;
+  ProcessControlBlock *selectedProcess = (ProcessControlBlock *)DequeueProcess(READYQUEUE); 
+  if(RUNNINGQUEUE.isEmpty()) {
+  DisplayQueue("Added Job to Running Queue", RUNNINGQUEUE);
+}
 
   return(selectedProcess);
 }
