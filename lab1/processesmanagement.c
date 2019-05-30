@@ -45,6 +45,7 @@ typedef enum {TAT,RT,CBT,THGT,WT} Metric;
 
 Quantity NumberofJobs[MAXMETRICS]; // Number of Jobs for which metric was collected
 Average  SumMetrics[MAXMETRICS]; // Sum for each Metrics
+int jobsOnCPU = 0;
 
 /*****************************************************************************\
 *                               Function prototypes                           *
@@ -145,7 +146,7 @@ void IO() {
   } // if (ProcessToMove)
 }
 
-/***********************************************************************\    
+/***********************************************************************\
  * Input : whichPolicy (1:FCFS, 2: SJF, and 3:RR)                      *        
  * Output: None                                                         * 
  * Function: Selects Process from Ready Queue and Puts it on Running Q. *
@@ -165,7 +166,7 @@ void CPUScheduler(Identifier whichPolicy) {
   }
 }
 
-/***********************************************************************\                                               
+/***********************************************************************\
  * Input : None                                                         *                                               
  * Output: Pointer to the process based on First Come First Serve (FCFS)*
  * Function: Returns process control block based on FCFS                *                                                \***********************************************************************/
@@ -173,16 +174,13 @@ ProcessControlBlock *FCFS_Scheduler() {
   /* Select Process based on FCFS */
   // Implement code for FCFS
   ProcessControlBlock *selectedProcess = (ProcessControlBlock *)DequeueProcess(READYQUEUE); 
-  if(RUNNINGQUEUE.isEmpty()) {
-  DisplayQueue("Added Job to Running Queue", RUNNINGQUEUE);
-}
 
   return(selectedProcess);
 }
 
 
 
-/***********************************************************************\                         
+/***********************************************************************\
  * Input : None                                                         *                                     
  * Output: Pointer to the process with shortest remaining time (SJF)   *                                     
  * Function: Returns process control block with SJF                    *                                     
@@ -197,7 +195,7 @@ ProcessControlBlock *SJF_Scheduler() {
 }
 
 
-/***********************************************************************\                                               
+/***********************************************************************\
  * Input : None                                                         *                                               
  * Output: Pointer to the process based on Round Robin (RR)             *                                               
  * Function: Returns process control block based on RR                  *                                              \
@@ -211,16 +209,60 @@ ProcessControlBlock *RR_Scheduler() {
   return(selectedProcess);
 }
 
-/***********************************************************************\  
+/***********************************************************************\
  * Input : None                                                         *   
  * Output: None                                                         *   
  * Function:                                                            *
  *  1)If process in Running Queue needs computation, put it on CPU      *
  *              else move process from running queue to Exit Queue      *     
 \***********************************************************************/
-void Dispatcher() {
-  double start;
-  //
+void Dispatcher() 
+{
+	ProcessControlBlock *currentProcess = DequeueProcess(RUNNINGQUEUE);
+	if(currentProcess) 
+	{
+		if(currentProcess->TimeInCpu == 0) //First Time On CPU
+		{  
+			NumberofJobs[CBT]++;
+			NumberofJobs[RT]++;
+			SumMetrics[RT] += (Now() - currentProcess->JobArrivalTime);
+		}
+		if (currentProcess->TimeInCpu >= currentProcess->TotalJobDuration) //Process is done computing
+		{
+			currentProcess->JobExitTime = Now();
+			currentProcess->state = DONE;
+			SumMetrics[TAT] += (currentProcess->JobExitTime - currentProcess->JobArrivalTime);
+			SumMetrics[WT] += (currentProcess->JobExitTime - currentProcess->JobArrivalTime - currentProcess->TimeInWaitQueue - currentProcess->TimeInCpu - currentProcess->TimeInJobQueue);
+			EnqueueProcess(EXITQUEUE, currentProcess);
+			NumberofJobs[THGT]++;
+			NumberofJobs[WT]++;
+		} else //Process still has some computing
+		{
+			if(PolicyNumber == RR) 
+			{
+				currentProcess->CpuBurstTime = Quantum;
+			}		
+			if(currentProcess->RemainingCpuBurstTime < currentProcess->CpuBurstTime) //If the proccess needs less time to finish this burst than it is allowed, use the least time.
+			{
+				currentProcess->CpuBurstTime = (currentProcess->RemainingCpuBurstTime);
+			}
+			if(currentProcess->TotalJobDuration - currentProcess->TimeInCpu < currentProcess->CpuBurstTime) //If the process needs less time to completely finish that its burst length, use the least time.
+			{
+				currentProcess->CpuBurstTime = (currentProcess->TotalJobDuration - currentProcess->TimeInCpu);
+			
+			//Put process on CPUT
+			OnCPU(currentProcess, currentProcess->CpuBurstTime);
+
+			//Update the field TimeInCpu/RemainingCpuBurstTime
+			currentProcess->TimeInCpu += currentProcess->CpuBurstTime; // SB_ 6/4 use CpuBurstTime instead of PCB-> CpuBurst Time
+			currentProcess->RemainingCpuBurstTime = (currentProcess->CpuBurstTime - currentProcess->RemainingCpuBurstTime);
+
+			//put the process to run back on the queue
+			EnqueueProcess(RUNNINGQUEUE, currentProcess);
+			SumMetrics[CBT] += currentProcess->CpuBurstTime;
+			}		
+		}
+	}
 }
 
 /***********************************************************************\
