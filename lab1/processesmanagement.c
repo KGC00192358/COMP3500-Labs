@@ -173,7 +173,7 @@ void CPUScheduler(Identifier whichPolicy) {
 ProcessControlBlock *FCFS_Scheduler() {
   /* Select Process based on FCFS */
   // Implement code for FCFS
-  ProcessControlBlock *selectedProcess = (ProcessControlBlock *)DequeueProcess(READYQUEUE); 
+  ProcessControlBlock *selectedProcess = (ProcessControlBlock *) DequeueProcess(READYQUEUE); 
 
   return(selectedProcess);
 }
@@ -249,18 +249,18 @@ void Dispatcher()
 			if(currentProcess->TotalJobDuration - currentProcess->TimeInCpu < currentProcess->CpuBurstTime) //If the process needs less time to completely finish that its burst length, use the least time.
 			{
 				currentProcess->CpuBurstTime = (currentProcess->TotalJobDuration - currentProcess->TimeInCpu);
-			
+			}
 			//Put process on CPUT
 			OnCPU(currentProcess, currentProcess->CpuBurstTime);
 
 			//Update the field TimeInCpu/RemainingCpuBurstTime
-			currentProcess->TimeInCpu += currentProcess->CpuBurstTime; // SB_ 6/4 use CpuBurstTime instead of PCB-> CpuBurst Time
+			currentProcess->TimeInCpu += currentProcess->CpuBurstTime; 
 			currentProcess->RemainingCpuBurstTime = (currentProcess->CpuBurstTime - currentProcess->RemainingCpuBurstTime);
 
 			//put the process to run back on the queue
 			EnqueueProcess(RUNNINGQUEUE, currentProcess);
 			SumMetrics[CBT] += currentProcess->CpuBurstTime;
-			}		
+					
 		}
 	}
 }
