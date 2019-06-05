@@ -185,12 +185,40 @@ ProcessControlBlock *FCFS_Scheduler() {
  * Output: Pointer to the process with shortest remaining time (SJF)   *                                     
  * Function: Returns process control block with SJF                    *                                     
 \***********************************************************************/
-ProcessControlBlock *SJF_Scheduler() {
+//I implemented this to use FCFS in case of a time
+ProcessControlBlock *SJF_Scheduler() 
+{
   /* Select Process with Shortest Remaining Time*/
-  ProcessControlBlock *selectedProcess = (ProcessControlBlock *) NULL;
+  ProcessControlBlock *selectedProcess = (ProcessControlBlock *) DequeueProcess(READYQUEUE);
+	ProcessControlBlock *originalProcess = selectedProcess;
+	ProcessControlBlock *compareProcess = DequeueProcess(READYQUEUE);
+
+  if(selectedProcess && compareProcess) 
+  {
+	  Identifier headPID = originalProcess->ProcessID;
+	  EnqueueProcess(READYQUEUE, originalProcess); //make sure process is in the pile
   
-  // Implement code for SJF
- 
+	while(compareProcess->ProcessID != headPID) //Check if we still have a process to check
+	{
+				if(compareProcess->RemainingCpuBurstTime < selectedProcess->RemainingCpuBurstTime)
+				{
+					if(selectedProcess->ProcessID == headPID)
+					{
+						selectedProcess = compareProcess; //this process is already added at the top, should not add it again.
+						compareProcess = DequeueProcess(READYQUEUE);
+					} else 
+					{
+						EnqueueProcess(READYQUEUE, selectedProcess);
+						selectedProcess = compareProcess;
+						compareProcess = DequeueProcess(READYQUEUE);
+					}
+				} else 
+				{
+						EnqueueProcess(READYQUEUE, compareProcess);
+						compareProcess = DequeueProcess(READYQUEUE);
+				}
+	}
+  }
   return(selectedProcess);
 }
 
@@ -202,10 +230,11 @@ ProcessControlBlock *SJF_Scheduler() {
  \***********************************************************************/
 ProcessControlBlock *RR_Scheduler() {
   /* Select Process based on RR*/
-  ProcessControlBlock *selectedProcess = (ProcessControlBlock *) NULL;
-
-  // Implement code for RR                                                                                             
-
+  ProcessControlBlock *selectedProcess = (ProcessControlBlock *) DequeueProcess(READYQUEUE);
+	if(selectedProcess)
+	{
+		selectedProcess->CpuBurstTime = Quantum; //standardize cpu bursts
+	}
   return(selectedProcess);
 }
 
@@ -238,10 +267,7 @@ void Dispatcher()
 			NumberofJobs[WT]++;
 		} else //Process still has some computing
 		{
-			if(PolicyNumber == RR) 
-			{
-				currentProcess->CpuBurstTime = Quantum;
-			}		
+					
 			if(currentProcess->RemainingCpuBurstTime < currentProcess->CpuBurstTime) //If the proccess needs less time to finish this burst than it is allowed, use the least time.
 			{
 				currentProcess->CpuBurstTime = (currentProcess->RemainingCpuBurstTime);
