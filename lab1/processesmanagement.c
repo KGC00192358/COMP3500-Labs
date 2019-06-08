@@ -231,10 +231,7 @@ ProcessControlBlock *SJF_Scheduler()
 ProcessControlBlock *RR_Scheduler() {
   /* Select Process based on RR*/
   ProcessControlBlock *selectedProcess = (ProcessControlBlock *) DequeueProcess(READYQUEUE);
-	if(selectedProcess)
-	{
-		selectedProcess->CpuBurstTime = Quantum; //standardize cpu bursts
-	}
+	
   return(selectedProcess);
 }
 
@@ -261,12 +258,15 @@ void Dispatcher()
 			currentProcess->JobExitTime = Now();
 			currentProcess->state = DONE;
 			SumMetrics[TAT] += (currentProcess->JobExitTime - currentProcess->JobArrivalTime);
-			SumMetrics[WT] += (currentProcess->JobExitTime - currentProcess->JobArrivalTime - currentProcess->TimeInWaitQueue - currentProcess->TimeInCpu - currentProcess->TimeInJobQueue);
+			SumMetrics[WT] += (currentProcess->JobExitTime - currentProcess->JobArrivalTime - currentProcess->TimeInWaitQueue - currentProcess->TimeInCpu - currentProcess->TimeInJobQueue); //calculate time in ready queue
 			EnqueueProcess(EXITQUEUE, currentProcess);
 			NumberofJobs[THGT]++;
 			NumberofJobs[WT]++;
 		} else //Process still has some computing
 		{
+			if(PolicyNumber == RR){
+				currentProcess->CpuBurstTime = Quantum;
+			}
 					
 			if(currentProcess->RemainingCpuBurstTime < currentProcess->CpuBurstTime) //If the proccess needs less time to finish this burst than it is allowed, use the least time.
 			{

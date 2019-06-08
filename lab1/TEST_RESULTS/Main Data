@@ -2,98 +2,98 @@ FCFS test results:
 ********* Behind Thee Scenes Numbers *********************************
 Policy Number = 1, Quantum = 0.005000   Show = 0
 Number of Completed Processes = 209
-ATAT=12.903509   ART=2.645234  CBT = 0.904267  T=0.901272 AWT=11.014315 
+ATAT=12.900331   ART=2.647834  CBT = 0.904230  T=0.901235 AWT=11.004068 
 
 ********* Processes Managemenent Numbers ******************************
 Policy Number = 1, Quantum = 0.005000   Show = 0
 Number of Completed Processes = 209
-ATAT=12.903509   ART=2.645233  CBT = 0.903486  T=0.901272 AWT=11.063136
+ATAT=12.900331   ART=2.647833  CBT = 0.903448  T=0.901235 AWT=11.059863
 
 SJF test results: 
 ********* Behind Thee Scenes Numbers *********************************
 Policy Number = 2, Quantum = 0.005000   Show = 0
-Number of Completed Processes = 161
-ATAT=1.085974   ART=0.087220  CBT = 0.570848  T=0.694306 AWT=0.092919 
+Number of Completed Processes = 159
+ATAT=1.095735   ART=0.092241  CBT = 0.581467  T=0.685645 AWT=0.100338 
 
 ********* Processes Managemenent Numbers ******************************
 Policy Number = 2, Quantum = 0.005000   Show = 0
-Number of Completed Processes = 161
-ATAT=1.085974   ART=0.087220  CBT = 0.570283  T=0.694306 AWT=-0.458880
+Number of Completed Processes = 159
+ATAT=1.095735   ART=0.092240  CBT = 0.580902  T=0.685645 AWT=-0.443524
 
 RR1MS test results: 
 ********* Behind Thee Scenes Numbers *********************************
 Policy Number = 3, Quantum = 0.001000   Show = 0
 Number of Completed Processes = 174
-ATAT=24.549381   ART=0.002454  CBT = 0.557720  T=0.750652 AWT=0.606525 
+ATAT=24.644164   ART=0.002616  CBT = 0.557040  T=0.750619 AWT=0.689153 
 
 ********* Processes Managemenent Numbers ******************************
 Policy Number = 3, Quantum = 0.001000   Show = 0
 Number of Completed Processes = 174
-ATAT=24.549381   ART=0.002454  CBT = 0.557716  T=0.750652 AWT=23.125004
+ATAT=24.644164   ART=0.002616  CBT = 0.557035  T=0.750619 AWT=23.219763
 
 RR5MS test results: 
 ********* Behind Thee Scenes Numbers *********************************
 Policy Number = 3, Quantum = 0.005000   Show = 0
-Number of Completed Processes = 210
-ATAT=15.975106   ART=0.026616  CBT = 0.800377  T=0.905901 AWT=3.294496 
+Number of Completed Processes = 208
+ATAT=15.830412   ART=0.028709  CBT = 0.797047  T=0.897288 AWT=3.306116 
 
 ********* Processes Managemenent Numbers ******************************
 Policy Number = 3, Quantum = 0.005000   Show = 0
-Number of Completed Processes = 210
-ATAT=15.975106   ART=0.026616  CBT = 0.800355  T=0.905901 AWT=14.318586
+Number of Completed Processes = 208
+ATAT=15.830412   ART=0.028709  CBT = 0.797025  T=0.897288 AWT=14.181076
 
 RR10MS test results: 
 ********* Behind Thee Scenes Numbers *********************************
 Policy Number = 3, Quantum = 0.010000   Show = 0
-Number of Completed Processes = 219
-ATAT=11.218791   ART=0.054481  CBT = 0.856930  T=0.944771 AWT=3.426570 
+Number of Completed Processes = 218
+ATAT=11.342008   ART=0.057532  CBT = 0.853559  T=0.940403 AWT=3.561671 
 
 ********* Processes Managemenent Numbers ******************************
 Policy Number = 3, Quantum = 0.010000   Show = 0
-Number of Completed Processes = 219
-ATAT=11.218790   ART=0.054481  CBT = 0.856887  T=0.944771 AWT=9.510994
+Number of Completed Processes = 218
+ATAT=11.342008   ART=0.057532  CBT = 0.853516  T=0.940403 AWT=9.636305
 
 RR15MS test results: 
 ********* Behind Thee Scenes Numbers *********************************
 Policy Number = 3, Quantum = 0.015000   Show = 0
-Number of Completed Processes = 221
-ATAT=11.095115   ART=0.093619  CBT = 0.874274  T=0.953423 AWT=4.373253 
+Number of Completed Processes = 219
+ATAT=10.812329   ART=0.095556  CBT = 0.871828  T=0.944738 AWT=4.294218 
 
 ********* Processes Managemenent Numbers ******************************
 Policy Number = 3, Quantum = 0.015000   Show = 0
-Number of Completed Processes = 221
-ATAT=11.095115   ART=0.093618  CBT = 0.874209  T=0.953423 AWT=9.341205
+Number of Completed Processes = 219
+ATAT=10.812329   ART=0.095556  CBT = 0.871763  T=0.944738 AWT=9.069526
 
 RR20MS test results: 
 ********* Behind Thee Scenes Numbers *********************************
 Policy Number = 3, Quantum = 0.020000   Show = 0
 Number of Completed Processes = 223
-ATAT=10.374596   ART=0.132989  CBT = 0.883008  T=0.962045 AWT=4.942078 
+ATAT=10.464627   ART=0.137238  CBT = 0.881316  T=0.961988 AWT=5.020245 
 
 ********* Processes Managemenent Numbers ******************************
 Policy Number = 3, Quantum = 0.020000   Show = 0
 Number of Completed Processes = 223
-ATAT=10.374596   ART=0.132989  CBT = 0.882921  T=0.962045 AWT=8.610864
+ATAT=10.464627   ART=0.137238  CBT = 0.881230  T=0.961987 AWT=8.700799
 
 RR25MS test results: 
 ********* Behind Thee Scenes Numbers *********************************
 Policy Number = 3, Quantum = 0.025000   Show = 0
 Number of Completed Processes = 225
-ATAT=9.746711   ART=0.159846  CBT = 0.890493  T=0.970611 AWT=5.008151 
+ATAT=9.846163   ART=0.163526  CBT = 0.888955  T=0.970581 AWT=5.099774 
 
 ********* Processes Managemenent Numbers ******************************
 Policy Number = 3, Quantum = 0.025000   Show = 0
 Number of Completed Processes = 225
-ATAT=9.746711   ART=0.159846  CBT = 0.890385  T=0.970611 AWT=7.970331
+ATAT=9.846163   ART=0.163525  CBT = 0.888847  T=0.970580 AWT=8.069681
 
 RR50MS test results: 
 ********* Behind Thee Scenes Numbers *********************************
 Policy Number = 3, Quantum = 0.050000   Show = 0
 Number of Completed Processes = 225
-ATAT=8.648974   ART=0.343031  CBT = 0.896023  T=0.970527 AWT=5.643803 
+ATAT=8.691066   ART=0.346429  CBT = 0.895693  T=0.970402 AWT=5.683661 
 
 ********* Processes Managemenent Numbers ******************************
 Policy Number = 3, Quantum = 0.050000   Show = 0
 Number of Completed Processes = 225
-ATAT=8.648974   ART=0.343031  CBT = 0.895808  T=0.970527 AWT=6.870052
+ATAT=8.691066   ART=0.346428  CBT = 0.895477  T=0.970402 AWT=6.912082
 

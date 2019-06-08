@@ -1,9 +1,9 @@
 ********* Behind Thee Scenes Numbers *********************************
 Policy Number = 3, Quantum = 0.050000   Show = 0
 Number of Completed Processes = 225
-ATAT=8.648974   ART=0.343031  CBT = 0.896023  T=0.970527 AWT=5.643803 
+ATAT=8.691066   ART=0.346429  CBT = 0.895693  T=0.970402 AWT=5.683661 
 
 ********* Processes Managemenent Numbers ******************************
 Policy Number = 3, Quantum = 0.050000   Show = 0
 Number of Completed Processes = 225
-ATAT=8.648974   ART=0.343031  CBT = 0.895808  T=0.970527 AWT=6.870052
+ATAT=8.691066   ART=0.346428  CBT = 0.895477  T=0.970402 AWT=6.912082

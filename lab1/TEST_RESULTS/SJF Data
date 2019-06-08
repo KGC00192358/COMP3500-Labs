@@ -1,11 +1,11 @@
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J      1.771 : PID(  0)  JAT(     1.769) TJD(     0.273)   Mem(   0)
+J      1.772 : PID(  0)  JAT(     1.770) TJD(     0.273)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J      2.321 : PID(  1)  JAT(     2.321) TJD(     0.229)   Mem(   0)
+J      2.322 : PID(  1)  JAT(     2.321) TJD(     0.229)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
@@ -15,7 +15,7 @@ J      2.457 : PID(  2)  JAT(     2.456) TJD(     0.280)   Mem(   0)
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J      2.768 : PID(  3)  JAT(     2.768) TJD(     1.279)   Mem(   0)
+J      2.769 : PID(  3)  JAT(     2.768) TJD(     1.279)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
@@ -35,37 +35,37 @@ J      4.289 : PID(  6)  JAT(     4.288) TJD(     0.040)   Mem(   0)
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J      5.579 : PID(  7)  JAT(     5.578) TJD(     1.278)   Mem(   0)
+J      5.580 : PID(  7)  JAT(     5.578) TJD(     1.278)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J      5.816 : PID(  8)  JAT(     5.816) TJD(     1.956)   Mem(   0)
+J      5.817 : PID(  8)  JAT(     5.816) TJD(     1.956)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J      9.486 : PID(  9)  JAT(     9.482) TJD(     1.776)   Mem(   0)
+J      9.487 : PID(  9)  JAT(     9.483) TJD(     1.776)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     10.123 : PID( 10)  JAT(    10.122) TJD(     0.125)   Mem(   0)
+J     10.124 : PID( 10)  JAT(    10.123) TJD(     0.125)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     11.284 : PID( 11)  JAT(    11.283) TJD(     0.248)   Mem(   0)
+J     11.285 : PID( 11)  JAT(    11.283) TJD(     0.248)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     11.634 : PID( 12)  JAT(    11.633) TJD(     1.444)   Mem(   0)
+J     11.634 : PID( 12)  JAT(    11.634) TJD(     1.444)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     12.067 : PID( 13)  JAT(    12.066) TJD(     0.069)   Mem(   0)
+J     12.068 : PID( 13)  JAT(    12.067) TJD(     0.069)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
@@ -75,1187 +75,1187 @@ J     12.898 : PID( 14)  JAT(    12.897) TJD(     0.472)   Mem(   0)
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     13.668 : PID( 15)  JAT(    13.667) TJD(     0.436)   Mem(   0)
+J     13.669 : PID( 15)  JAT(    13.668) TJD(     0.436)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     15.605 : PID( 16)  JAT(    15.603) TJD(     0.766)   Mem(   0)
+J     15.606 : PID( 16)  JAT(    15.604) TJD(     0.766)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     16.633 : PID( 17)  JAT(    16.632) TJD(     0.875)   Mem(   0)
+J     16.634 : PID( 17)  JAT(    16.633) TJD(     0.875)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     16.648 : PID( 18)  JAT(    16.648) TJD(     0.524)   Mem(   0)
+J     16.650 : PID( 18)  JAT(    16.649) TJD(     0.524)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     16.744 : PID( 19)  JAT(    16.744) TJD(     0.407)   Mem(   0)
+J     16.745 : PID( 19)  JAT(    16.745) TJD(     0.407)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     16.778 : PID( 20)  JAT(    16.778) TJD(     0.229)   Mem(   0)
+J     16.780 : PID( 20)  JAT(    16.779) TJD(     0.229)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     18.043 : PID( 21)  JAT(    18.042) TJD(     0.036)   Mem(   0)
+J     18.045 : PID( 21)  JAT(    18.043) TJD(     0.036)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     19.024 : PID( 22)  JAT(    19.023) TJD(     0.076)   Mem(   0)
+J     19.026 : PID( 22)  JAT(    19.024) TJD(     0.076)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     19.349 : PID( 23)  JAT(    19.348) TJD(     0.500)   Mem(   0)
+J     19.350 : PID( 23)  JAT(    19.350) TJD(     0.500)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     19.641 : PID( 24)  JAT(    19.641) TJD(     2.540)   Mem(   0)
+J     19.643 : PID( 24)  JAT(    19.642) TJD(     2.540)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     19.993 : PID( 25)  JAT(    19.993) TJD(     2.004)   Mem(   0)
+J     19.995 : PID( 25)  JAT(    19.994) TJD(     2.004)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     20.368 : PID( 26)  JAT(    20.367) TJD(     0.958)   Mem(   0)
+J     20.370 : PID( 26)  JAT(    20.369) TJD(     0.958)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     22.237 : PID( 27)  JAT(    22.235) TJD(     1.730)   Mem(   0)
+J     22.239 : PID( 27)  JAT(    22.236) TJD(     1.730)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     23.387 : PID( 28)  JAT(    23.385) TJD(     0.607)   Mem(   0)
+J     23.388 : PID( 28)  JAT(    23.387) TJD(     0.607)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     23.702 : PID( 29)  JAT(    23.702) TJD(     6.264)   Mem(   0)
+J     23.704 : PID( 29)  JAT(    23.703) TJD(     6.264)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     23.765 : PID( 30)  JAT(    23.764) TJD(     0.258)   Mem(   0)
+J     23.766 : PID( 30)  JAT(    23.766) TJD(     0.258)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     24.459 : PID( 31)  JAT(    24.458) TJD(     0.160)   Mem(   0)
+J     24.460 : PID( 31)  JAT(    24.459) TJD(     0.160)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     24.612 : PID( 32)  JAT(    24.612) TJD(     0.225)   Mem(   0)
+J     24.614 : PID( 32)  JAT(    24.614) TJD(     0.225)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     24.801 : PID( 33)  JAT(    24.801) TJD(     0.277)   Mem(   0)
+J     24.803 : PID( 33)  JAT(    24.802) TJD(     0.277)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     24.924 : PID( 34)  JAT(    24.924) TJD(     0.037)   Mem(   0)
+J     24.926 : PID( 34)  JAT(    24.925) TJD(     0.037)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     25.799 : PID( 35)  JAT(    25.798) TJD(     0.409)   Mem(   0)
+J     25.800 : PID( 35)  JAT(    25.799) TJD(     0.409)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     27.303 : PID( 36)  JAT(    27.301) TJD(     0.001)   Mem(   0)
+J     27.305 : PID( 36)  JAT(    27.303) TJD(     0.001)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     27.658 : PID( 37)  JAT(    27.657) TJD(     0.013)   Mem(   0)
+J     27.660 : PID( 37)  JAT(    27.659) TJD(     0.013)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     27.828 : PID( 38)  JAT(    27.827) TJD(     0.364)   Mem(   0)
+J     27.829 : PID( 38)  JAT(    27.829) TJD(     0.364)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     28.051 : PID( 39)  JAT(    28.051) TJD(     1.745)   Mem(   0)
+J     28.053 : PID( 39)  JAT(    28.052) TJD(     1.745)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     28.920 : PID( 40)  JAT(    28.919) TJD(     0.018)   Mem(   0)
+J     28.921 : PID( 40)  JAT(    28.920) TJD(     0.018)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     30.320 : PID( 41)  JAT(    30.319) TJD(     0.160)   Mem(   0)
+J     30.322 : PID( 41)  JAT(    30.320) TJD(     0.160)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     32.346 : PID( 42)  JAT(    32.344) TJD(     0.704)   Mem(   0)
+J     32.348 : PID( 42)  JAT(    32.345) TJD(     0.704)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     32.911 : PID( 43)  JAT(    32.910) TJD(     0.771)   Mem(   0)
+J     32.913 : PID( 43)  JAT(    32.912) TJD(     0.771)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     33.764 : PID( 44)  JAT(    33.763) TJD(     0.513)   Mem(   0)
+J     33.765 : PID( 44)  JAT(    33.764) TJD(     0.513)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     34.296 : PID( 45)  JAT(    34.296) TJD(     1.373)   Mem(   0)
+J     34.298 : PID( 45)  JAT(    34.297) TJD(     1.373)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     34.443 : PID( 46)  JAT(    34.442) TJD(     2.468)   Mem(   0)
+J     34.444 : PID( 46)  JAT(    34.444) TJD(     2.468)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     40.744 : PID( 47)  JAT(    40.737) TJD(     0.317)   Mem(   0)
+J     40.745 : PID( 47)  JAT(    40.739) TJD(     0.317)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     41.021 : PID( 48)  JAT(    41.020) TJD(     0.441)   Mem(   0)
+J     41.022 : PID( 48)  JAT(    41.022) TJD(     0.441)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     41.903 : PID( 49)  JAT(    41.902) TJD(     0.887)   Mem(   0)
+J     41.905 : PID( 49)  JAT(    41.904) TJD(     0.887)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     43.469 : PID( 50)  JAT(    43.468) TJD(     0.468)   Mem(   0)
+J     43.471 : PID( 50)  JAT(    43.469) TJD(     0.468)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     44.246 : PID( 51)  JAT(    44.245) TJD(     0.208)   Mem(   0)
+J     44.248 : PID( 51)  JAT(    44.247) TJD(     0.208)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     44.988 : PID( 52)  JAT(    44.987) TJD(     1.856)   Mem(   0)
+J     44.990 : PID( 52)  JAT(    44.989) TJD(     1.856)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     47.077 : PID( 53)  JAT(    47.074) TJD(     0.131)   Mem(   0)
+J     47.079 : PID( 53)  JAT(    47.076) TJD(     0.131)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     48.043 : PID( 54)  JAT(    48.042) TJD(     0.556)   Mem(   0)
+J     48.045 : PID( 54)  JAT(    48.044) TJD(     0.556)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     48.514 : PID( 55)  JAT(    48.513) TJD(     0.224)   Mem(   0)
+J     48.516 : PID( 55)  JAT(    48.515) TJD(     0.224)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     49.109 : PID( 56)  JAT(    49.108) TJD(     0.301)   Mem(   0)
+J     49.111 : PID( 56)  JAT(    49.110) TJD(     0.301)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     49.807 : PID( 57)  JAT(    49.806) TJD(     0.679)   Mem(   0)
+J     49.809 : PID( 57)  JAT(    49.808) TJD(     0.679)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     49.892 : PID( 58)  JAT(    49.891) TJD(     0.965)   Mem(   0)
+J     49.894 : PID( 58)  JAT(    49.894) TJD(     0.965)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     50.387 : PID( 59)  JAT(    50.386) TJD(     0.778)   Mem(   0)
+J     50.389 : PID( 59)  JAT(    50.389) TJD(     0.778)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     50.654 : PID( 60)  JAT(    50.654) TJD(     1.124)   Mem(   0)
+J     50.657 : PID( 60)  JAT(    50.656) TJD(     1.124)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     50.761 : PID( 61)  JAT(    50.761) TJD(     0.065)   Mem(   0)
+J     50.764 : PID( 61)  JAT(    50.764) TJD(     0.065)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     53.468 : PID( 62)  JAT(    53.466) TJD(     2.071)   Mem(   0)
+J     53.471 : PID( 62)  JAT(    53.468) TJD(     2.071)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     54.053 : PID( 63)  JAT(    54.053) TJD(     1.379)   Mem(   0)
+J     54.056 : PID( 63)  JAT(    54.056) TJD(     1.379)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     54.613 : PID( 64)  JAT(    54.613) TJD(     0.527)   Mem(   0)
+J     54.616 : PID( 64)  JAT(    54.615) TJD(     0.527)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     56.058 : PID( 65)  JAT(    56.056) TJD(     0.001)   Mem(   0)
+J     56.061 : PID( 65)  JAT(    56.059) TJD(     0.001)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     57.307 : PID( 66)  JAT(    57.306) TJD(     0.299)   Mem(   0)
+J     57.310 : PID( 66)  JAT(    57.309) TJD(     0.299)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     57.830 : PID( 67)  JAT(    57.830) TJD(     2.078)   Mem(   0)
+J     57.833 : PID( 67)  JAT(    57.833) TJD(     2.078)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     58.350 : PID( 68)  JAT(    58.350) TJD(     0.118)   Mem(   0)
+J     58.354 : PID( 68)  JAT(    58.353) TJD(     0.118)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     60.055 : PID( 69)  JAT(    60.053) TJD(     0.356)   Mem(   0)
+J     60.058 : PID( 69)  JAT(    60.056) TJD(     0.356)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     61.556 : PID( 70)  JAT(    61.555) TJD(     0.673)   Mem(   0)
+J     61.560 : PID( 70)  JAT(    61.558) TJD(     0.673)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     63.001 : PID( 71)  JAT(    62.999) TJD(     1.154)   Mem(   0)
+J     63.004 : PID( 71)  JAT(    63.003) TJD(     1.154)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     63.369 : PID( 72)  JAT(    63.368) TJD(     0.813)   Mem(   0)
+J     63.372 : PID( 72)  JAT(    63.372) TJD(     0.813)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     64.353 : PID( 73)  JAT(    64.352) TJD(     0.422)   Mem(   0)
+J     64.357 : PID( 73)  JAT(    64.356) TJD(     0.422)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     64.776 : PID( 74)  JAT(    64.776) TJD(     0.068)   Mem(   0)
+J     64.780 : PID( 74)  JAT(    64.779) TJD(     0.068)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     65.218 : PID( 75)  JAT(    65.217) TJD(     0.253)   Mem(   0)
+J     65.222 : PID( 75)  JAT(    65.221) TJD(     0.253)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     65.499 : PID( 76)  JAT(    65.498) TJD(     0.104)   Mem(   0)
+J     65.503 : PID( 76)  JAT(    65.502) TJD(     0.104)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     66.015 : PID( 77)  JAT(    66.014) TJD(     0.451)   Mem(   0)
+J     66.019 : PID( 77)  JAT(    66.018) TJD(     0.451)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     67.392 : PID( 78)  JAT(    67.391) TJD(     0.968)   Mem(   0)
+J     67.397 : PID( 78)  JAT(    67.395) TJD(     0.968)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     68.632 : PID( 79)  JAT(    68.630) TJD(     1.361)   Mem(   0)
+J     68.636 : PID( 79)  JAT(    68.635) TJD(     1.361)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     69.031 : PID( 80)  JAT(    69.030) TJD(     2.985)   Mem(   0)
+J     69.035 : PID( 80)  JAT(    69.034) TJD(     2.985)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     70.726 : PID( 81)  JAT(    70.724) TJD(     3.451)   Mem(   0)
+J     70.731 : PID( 81)  JAT(    70.729) TJD(     3.451)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     72.512 : PID( 82)  JAT(    72.510) TJD(     0.469)   Mem(   0)
+J     72.517 : PID( 82)  JAT(    72.515) TJD(     0.469)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     72.557 : PID( 83)  JAT(    72.557) TJD(     0.253)   Mem(   0)
+J     72.561 : PID( 83)  JAT(    72.561) TJD(     0.253)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     74.594 : PID( 84)  JAT(    74.592) TJD(     0.264)   Mem(   0)
+J     74.599 : PID( 84)  JAT(    74.596) TJD(     0.264)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     76.757 : PID( 85)  JAT(    76.754) TJD(     0.423)   Mem(   0)
+J     76.761 : PID( 85)  JAT(    76.759) TJD(     0.423)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     77.000 : PID( 86)  JAT(    77.000) TJD(     0.332)   Mem(   0)
+J     77.005 : PID( 86)  JAT(    77.005) TJD(     0.332)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     79.011 : PID( 87)  JAT(    79.009) TJD(     1.220)   Mem(   0)
+J     79.016 : PID( 87)  JAT(    79.014) TJD(     1.220)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     80.642 : PID( 88)  JAT(    80.640) TJD(     0.455)   Mem(   0)
+J     80.647 : PID( 88)  JAT(    80.645) TJD(     0.455)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     81.209 : PID( 89)  JAT(    81.209) TJD(     1.973)   Mem(   0)
+J     81.214 : PID( 89)  JAT(    81.214) TJD(     1.973)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     83.087 : PID( 90)  JAT(    83.085) TJD(     0.541)   Mem(   0)
+J     83.092 : PID( 90)  JAT(    83.090) TJD(     0.541)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     84.670 : PID( 91)  JAT(    84.669) TJD(     0.372)   Mem(   0)
+J     84.676 : PID( 91)  JAT(    84.674) TJD(     0.372)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     84.874 : PID( 92)  JAT(    84.874) TJD(     2.602)   Mem(   0)
+J     84.879 : PID( 92)  JAT(    84.879) TJD(     2.602)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     84.993 : PID( 93)  JAT(    84.993) TJD(     0.059)   Mem(   0)
+J     84.999 : PID( 93)  JAT(    84.998) TJD(     0.059)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     85.057 : PID( 94)  JAT(    85.057) TJD(     0.008)   Mem(   0)
+J     85.062 : PID( 94)  JAT(    85.062) TJD(     0.008)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     88.697 : PID( 95)  JAT(    88.693) TJD(     1.022)   Mem(   0)
+J     88.703 : PID( 95)  JAT(    88.699) TJD(     1.022)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     89.049 : PID( 96)  JAT(    89.049) TJD(     0.533)   Mem(   0)
+J     89.055 : PID( 96)  JAT(    89.054) TJD(     0.533)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     90.477 : PID( 97)  JAT(    90.475) TJD(     0.360)   Mem(   0)
+J     90.483 : PID( 97)  JAT(    90.481) TJD(     0.360)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     90.581 : PID( 98)  JAT(    90.581) TJD(     0.724)   Mem(   0)
+J     90.587 : PID( 98)  JAT(    90.587) TJD(     0.724)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     90.858 : PID( 99)  JAT(    90.858) TJD(     2.054)   Mem(   0)
+J     90.864 : PID( 99)  JAT(    90.864) TJD(     2.054)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     92.206 : PID(100)  JAT(    92.204) TJD(     0.603)   Mem(   0)
+J     92.212 : PID(100)  JAT(    92.210) TJD(     0.603)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     93.101 : PID(101)  JAT(    93.100) TJD(     2.358)   Mem(   0)
+J     93.108 : PID(101)  JAT(    93.107) TJD(     2.358)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     94.531 : PID(102)  JAT(    94.529) TJD(     0.517)   Mem(   0)
+J     94.537 : PID(102)  JAT(    94.535) TJD(     0.517)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     97.101 : PID(103)  JAT(    97.098) TJD(     1.821)   Mem(   0)
+J     97.107 : PID(103)  JAT(    97.105) TJD(     1.821)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     97.862 : PID(104)  JAT(    97.861) TJD(     0.309)   Mem(   0)
+J     97.868 : PID(104)  JAT(    97.867) TJD(     0.309)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     98.563 : PID(105)  JAT(    98.562) TJD(     2.389)   Mem(   0)
+J     98.569 : PID(105)  JAT(    98.569) TJD(     2.389)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J     99.668 : PID(106)  JAT(    99.666) TJD(     2.346)   Mem(   0)
+J     99.674 : PID(106)  JAT(    99.673) TJD(     2.346)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    101.899 : PID(107)  JAT(   101.896) TJD(     1.666)   Mem(   0)
+J    101.906 : PID(107)  JAT(   101.903) TJD(     1.666)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    101.976 : PID(108)  JAT(   101.976) TJD(     0.593)   Mem(   0)
+J    101.983 : PID(108)  JAT(   101.983) TJD(     0.593)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    102.654 : PID(109)  JAT(   102.653) TJD(     0.251)   Mem(   0)
+J    102.661 : PID(109)  JAT(   102.660) TJD(     0.251)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    103.053 : PID(110)  JAT(   103.053) TJD(     0.110)   Mem(   0)
+J    103.060 : PID(110)  JAT(   103.060) TJD(     0.110)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    103.387 : PID(111)  JAT(   103.387) TJD(     2.319)   Mem(   0)
+J    103.394 : PID(111)  JAT(   103.394) TJD(     2.319)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    104.171 : PID(112)  JAT(   104.170) TJD(     0.961)   Mem(   0)
+J    104.178 : PID(112)  JAT(   104.177) TJD(     0.961)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    107.025 : PID(113)  JAT(   107.022) TJD(     2.002)   Mem(   0)
+J    107.032 : PID(113)  JAT(   107.029) TJD(     2.002)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    109.787 : PID(114)  JAT(   109.784) TJD(     0.617)   Mem(   0)
+J    109.794 : PID(114)  JAT(   109.791) TJD(     0.617)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    115.610 : PID(115)  JAT(   115.604) TJD(     0.100)   Mem(   0)
+J    115.617 : PID(115)  JAT(   115.611) TJD(     0.100)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    115.644 : PID(116)  JAT(   115.644) TJD(     0.190)   Mem(   0)
+J    115.652 : PID(116)  JAT(   115.651) TJD(     0.190)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    116.028 : PID(117)  JAT(   116.028) TJD(     0.244)   Mem(   0)
+J    116.036 : PID(117)  JAT(   116.036) TJD(     0.244)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    117.016 : PID(118)  JAT(   117.015) TJD(     0.184)   Mem(   0)
+J    117.024 : PID(118)  JAT(   117.023) TJD(     0.184)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    119.116 : PID(119)  JAT(   119.114) TJD(     0.789)   Mem(   0)
+J    119.124 : PID(119)  JAT(   119.122) TJD(     0.789)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    119.891 : PID(120)  JAT(   119.890) TJD(     0.355)   Mem(   0)
+J    119.899 : PID(120)  JAT(   119.898) TJD(     0.355)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    120.577 : PID(121)  JAT(   120.576) TJD(     1.210)   Mem(   0)
+J    120.586 : PID(121)  JAT(   120.585) TJD(     1.210)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    121.571 : PID(122)  JAT(   121.570) TJD(     0.048)   Mem(   0)
+J    121.580 : PID(122)  JAT(   121.579) TJD(     0.048)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    121.803 : PID(123)  JAT(   121.803) TJD(     0.981)   Mem(   0)
+J    121.812 : PID(123)  JAT(   121.811) TJD(     0.981)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    122.649 : PID(124)  JAT(   122.648) TJD(     0.229)   Mem(   0)
+J    122.657 : PID(124)  JAT(   122.656) TJD(     0.229)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    124.066 : PID(125)  JAT(   124.065) TJD(     0.459)   Mem(   0)
+J    124.075 : PID(125)  JAT(   124.073) TJD(     0.459)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    124.780 : PID(126)  JAT(   124.779) TJD(     0.064)   Mem(   0)
+J    124.788 : PID(126)  JAT(   124.787) TJD(     0.064)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    127.071 : PID(127)  JAT(   127.068) TJD(     0.938)   Mem(   0)
+J    127.080 : PID(127)  JAT(   127.077) TJD(     0.938)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    127.084 : PID(128)  JAT(   127.083) TJD(     2.123)   Mem(   0)
+J    127.093 : PID(128)  JAT(   127.092) TJD(     2.123)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    127.328 : PID(129)  JAT(   127.328) TJD(     0.126)   Mem(   0)
+J    127.337 : PID(129)  JAT(   127.337) TJD(     0.126)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    127.947 : PID(130)  JAT(   127.947) TJD(     1.005)   Mem(   0)
+J    127.957 : PID(130)  JAT(   127.956) TJD(     1.005)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    128.694 : PID(131)  JAT(   128.693) TJD(     0.299)   Mem(   0)
+J    128.704 : PID(131)  JAT(   128.703) TJD(     0.299)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    129.443 : PID(132)  JAT(   129.442) TJD(     0.042)   Mem(   0)
+J    129.453 : PID(132)  JAT(   129.452) TJD(     0.042)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    129.639 : PID(133)  JAT(   129.639) TJD(     0.913)   Mem(   0)
+J    129.649 : PID(133)  JAT(   129.649) TJD(     0.913)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    130.054 : PID(134)  JAT(   130.054) TJD(     0.141)   Mem(   0)
+J    130.064 : PID(134)  JAT(   130.063) TJD(     0.141)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    130.131 : PID(135)  JAT(   130.131) TJD(     1.078)   Mem(   0)
+J    130.141 : PID(135)  JAT(   130.141) TJD(     1.078)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    130.987 : PID(136)  JAT(   130.986) TJD(     0.053)   Mem(   0)
+J    130.997 : PID(136)  JAT(   130.996) TJD(     0.053)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    132.162 : PID(137)  JAT(   132.161) TJD(     0.340)   Mem(   0)
+J    132.172 : PID(137)  JAT(   132.171) TJD(     0.340)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    134.338 : PID(138)  JAT(   134.336) TJD(     0.290)   Mem(   0)
+J    134.348 : PID(138)  JAT(   134.346) TJD(     0.290)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    134.395 : PID(139)  JAT(   134.395) TJD(     3.522)   Mem(   0)
+J    134.406 : PID(139)  JAT(   134.405) TJD(     3.522)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    136.673 : PID(140)  JAT(   136.670) TJD(     3.153)   Mem(   0)
+J    136.683 : PID(140)  JAT(   136.681) TJD(     3.153)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    137.054 : PID(141)  JAT(   137.054) TJD(     1.287)   Mem(   0)
+J    137.065 : PID(141)  JAT(   137.064) TJD(     1.287)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    137.489 : PID(142)  JAT(   137.489) TJD(     0.638)   Mem(   0)
+J    137.500 : PID(142)  JAT(   137.499) TJD(     0.638)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    137.947 : PID(143)  JAT(   137.946) TJD(     2.119)   Mem(   0)
+J    137.957 : PID(143)  JAT(   137.957) TJD(     2.119)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    137.961 : PID(144)  JAT(   137.961) TJD(     3.749)   Mem(   0)
+J    137.972 : PID(144)  JAT(   137.971) TJD(     3.749)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    139.977 : PID(145)  JAT(   139.975) TJD(     0.534)   Mem(   0)
+J    139.988 : PID(145)  JAT(   139.986) TJD(     0.534)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    140.585 : PID(146)  JAT(   140.584) TJD(     0.773)   Mem(   0)
+J    140.596 : PID(146)  JAT(   140.595) TJD(     0.773)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    140.618 : PID(147)  JAT(   140.618) TJD(     0.203)   Mem(   0)
+J    140.630 : PID(147)  JAT(   140.630) TJD(     0.203)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    140.690 : PID(148)  JAT(   140.690) TJD(     2.053)   Mem(   0)
+J    140.701 : PID(148)  JAT(   140.701) TJD(     2.053)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    141.659 : PID(149)  JAT(   141.658) TJD(     1.306)   Mem(   0)
+J    141.670 : PID(149)  JAT(   141.669) TJD(     1.306)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    142.139 : PID(150)  JAT(   142.139) TJD(     0.680)   Mem(   0)
+J    142.151 : PID(150)  JAT(   142.150) TJD(     0.680)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    143.419 : PID(151)  JAT(   143.418) TJD(     0.811)   Mem(   0)
+J    143.431 : PID(151)  JAT(   143.429) TJD(     0.811)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    143.522 : PID(152)  JAT(   143.522) TJD(     0.516)   Mem(   0)
+J    143.534 : PID(152)  JAT(   143.534) TJD(     0.516)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    143.869 : PID(153)  JAT(   143.869) TJD(     1.017)   Mem(   0)
+J    143.881 : PID(153)  JAT(   143.881) TJD(     1.017)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    144.194 : PID(154)  JAT(   144.194) TJD(     0.171)   Mem(   0)
+J    144.206 : PID(154)  JAT(   144.205) TJD(     0.171)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    145.277 : PID(155)  JAT(   145.276) TJD(     0.602)   Mem(   0)
+J    145.289 : PID(155)  JAT(   145.288) TJD(     0.602)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    146.066 : PID(156)  JAT(   146.065) TJD(     0.659)   Mem(   0)
+J    146.078 : PID(156)  JAT(   146.077) TJD(     0.659)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    147.481 : PID(157)  JAT(   147.480) TJD(     0.470)   Mem(   0)
+J    147.493 : PID(157)  JAT(   147.492) TJD(     0.470)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    148.044 : PID(158)  JAT(   148.043) TJD(     1.158)   Mem(   0)
+J    148.056 : PID(158)  JAT(   148.055) TJD(     1.158)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    148.486 : PID(159)  JAT(   148.485) TJD(     1.918)   Mem(   0)
+J    148.498 : PID(159)  JAT(   148.497) TJD(     1.918)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    149.388 : PID(160)  JAT(   149.387) TJD(     1.752)   Mem(   0)
+J    149.401 : PID(160)  JAT(   149.400) TJD(     1.752)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    149.718 : PID(161)  JAT(   149.718) TJD(     0.148)   Mem(   0)
+J    149.731 : PID(161)  JAT(   149.730) TJD(     0.148)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    149.810 : PID(162)  JAT(   149.809) TJD(     2.355)   Mem(   0)
+J    149.822 : PID(162)  JAT(   149.822) TJD(     2.355)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    150.074 : PID(163)  JAT(   150.074) TJD(     0.089)   Mem(   0)
+J    150.087 : PID(163)  JAT(   150.086) TJD(     0.089)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    151.122 : PID(164)  JAT(   151.121) TJD(     0.380)   Mem(   0)
+J    151.135 : PID(164)  JAT(   151.133) TJD(     0.380)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    152.737 : PID(165)  JAT(   152.735) TJD(     0.846)   Mem(   0)
+J    152.749 : PID(165)  JAT(   152.747) TJD(     0.846)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    153.679 : PID(166)  JAT(   153.677) TJD(     0.252)   Mem(   0)
+J    153.691 : PID(166)  JAT(   153.690) TJD(     0.252)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    153.778 : PID(167)  JAT(   153.778) TJD(     0.155)   Mem(   0)
+J    153.791 : PID(167)  JAT(   153.790) TJD(     0.155)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    153.806 : PID(168)  JAT(   153.806) TJD(     0.258)   Mem(   0)
+J    153.820 : PID(168)  JAT(   153.819) TJD(     0.258)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    154.463 : PID(169)  JAT(   154.462) TJD(     1.108)   Mem(   0)
+J    154.476 : PID(169)  JAT(   154.475) TJD(     1.108)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    155.007 : PID(170)  JAT(   155.006) TJD(     0.824)   Mem(   0)
+J    155.020 : PID(170)  JAT(   155.019) TJD(     0.824)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    155.053 : PID(171)  JAT(   155.052) TJD(     0.119)   Mem(   0)
+J    155.066 : PID(171)  JAT(   155.066) TJD(     0.119)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    156.280 : PID(172)  JAT(   156.278) TJD(     0.132)   Mem(   0)
+J    156.293 : PID(172)  JAT(   156.292) TJD(     0.132)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    157.146 : PID(173)  JAT(   157.145) TJD(     0.133)   Mem(   0)
+J    157.160 : PID(173)  JAT(   157.159) TJD(     0.133)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    159.726 : PID(174)  JAT(   159.724) TJD(     1.226)   Mem(   0)
+J    159.740 : PID(174)  JAT(   159.737) TJD(     1.226)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    159.999 : PID(175)  JAT(   159.998) TJD(     0.910)   Mem(   0)
+J    160.012 : PID(175)  JAT(   160.012) TJD(     0.910)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    161.107 : PID(176)  JAT(   161.105) TJD(     0.023)   Mem(   0)
+J    161.121 : PID(176)  JAT(   161.119) TJD(     0.023)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    161.582 : PID(177)  JAT(   161.582) TJD(     0.466)   Mem(   0)
+J    161.596 : PID(177)  JAT(   161.595) TJD(     0.466)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    162.069 : PID(178)  JAT(   162.068) TJD(     0.875)   Mem(   0)
+J    162.083 : PID(178)  JAT(   162.082) TJD(     0.875)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    163.019 : PID(179)  JAT(   163.018) TJD(     0.462)   Mem(   0)
+J    163.033 : PID(179)  JAT(   163.032) TJD(     0.462)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    163.257 : PID(180)  JAT(   163.257) TJD(     0.188)   Mem(   0)
+J    163.271 : PID(180)  JAT(   163.271) TJD(     0.188)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    164.432 : PID(181)  JAT(   164.431) TJD(     0.188)   Mem(   0)
+J    164.446 : PID(181)  JAT(   164.445) TJD(     0.188)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    164.967 : PID(182)  JAT(   164.967) TJD(     1.644)   Mem(   0)
+J    164.981 : PID(182)  JAT(   164.981) TJD(     1.644)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    165.642 : PID(183)  JAT(   165.641) TJD(     0.725)   Mem(   0)
+J    165.656 : PID(183)  JAT(   165.655) TJD(     0.725)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    165.927 : PID(184)  JAT(   165.927) TJD(     0.812)   Mem(   0)
+J    165.941 : PID(184)  JAT(   165.941) TJD(     0.812)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    166.160 : PID(185)  JAT(   166.159) TJD(     1.978)   Mem(   0)
+J    166.174 : PID(185)  JAT(   166.173) TJD(     1.978)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    166.974 : PID(186)  JAT(   166.973) TJD(     0.394)   Mem(   0)
+J    166.988 : PID(186)  JAT(   166.987) TJD(     0.394)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    168.082 : PID(187)  JAT(   168.081) TJD(     2.239)   Mem(   0)
+J    168.097 : PID(187)  JAT(   168.095) TJD(     2.239)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    168.715 : PID(188)  JAT(   168.714) TJD(     2.562)   Mem(   0)
+J    168.729 : PID(188)  JAT(   168.728) TJD(     2.562)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    169.887 : PID(189)  JAT(   169.885) TJD(     0.104)   Mem(   0)
+J    169.900 : PID(189)  JAT(   169.899) TJD(     0.104)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    170.059 : PID(190)  JAT(   170.058) TJD(     3.569)   Mem(   0)
+J    170.072 : PID(190)  JAT(   170.071) TJD(     3.569)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    170.594 : PID(191)  JAT(   170.593) TJD(     1.125)   Mem(   0)
+J    170.607 : PID(191)  JAT(   170.606) TJD(     1.125)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    172.916 : PID(192)  JAT(   172.913) TJD(     1.973)   Mem(   0)
+J    172.929 : PID(192)  JAT(   172.926) TJD(     1.973)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    174.441 : PID(193)  JAT(   174.439) TJD(     0.887)   Mem(   0)
+J    174.454 : PID(193)  JAT(   174.452) TJD(     0.887)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    175.054 : PID(194)  JAT(   175.053) TJD(     0.327)   Mem(   0)
+J    175.067 : PID(194)  JAT(   175.066) TJD(     0.327)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    175.671 : PID(195)  JAT(   175.670) TJD(     0.242)   Mem(   0)
+J    175.684 : PID(195)  JAT(   175.683) TJD(     0.242)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    175.920 : PID(196)  JAT(   175.920) TJD(     0.748)   Mem(   0)
+J    175.933 : PID(196)  JAT(   175.933) TJD(     0.748)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    178.733 : PID(197)  JAT(   178.730) TJD(     0.105)   Mem(   0)
+J    178.746 : PID(197)  JAT(   178.743) TJD(     0.105)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    179.710 : PID(198)  JAT(   179.709) TJD(     3.914)   Mem(   0)
+J    179.723 : PID(198)  JAT(   179.722) TJD(     3.914)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    182.478 : PID(199)  JAT(   182.476) TJD(     0.738)   Mem(   0)
+J    182.492 : PID(199)  JAT(   182.489) TJD(     0.738)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    184.414 : PID(200)  JAT(   184.412) TJD(     1.505)   Mem(   0)
+J    184.428 : PID(200)  JAT(   184.426) TJD(     1.505)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    185.791 : PID(201)  JAT(   185.791) TJD(     1.168)   Mem(   0)
+J    185.806 : PID(201)  JAT(   185.805) TJD(     1.168)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    185.961 : PID(202)  JAT(   185.961) TJD(     1.628)   Mem(   0)
+J    185.976 : PID(202)  JAT(   185.976) TJD(     1.628)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    187.757 : PID(203)  JAT(   187.755) TJD(     0.220)   Mem(   0)
+J    187.772 : PID(203)  JAT(   187.770) TJD(     0.220)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    189.151 : PID(204)  JAT(   189.149) TJD(     1.395)   Mem(   0)
+J    189.165 : PID(204)  JAT(   189.164) TJD(     1.395)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    190.159 : PID(205)  JAT(   190.157) TJD(     0.157)   Mem(   0)
+J    190.173 : PID(205)  JAT(   190.172) TJD(     0.157)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    192.286 : PID(206)  JAT(   192.284) TJD(     1.421)   Mem(   0)
+J    192.301 : PID(206)  JAT(   192.298) TJD(     1.421)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    192.798 : PID(207)  JAT(   192.798) TJD(     0.622)   Mem(   0)
+J    192.813 : PID(207)  JAT(   192.812) TJD(     0.622)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    193.195 : PID(208)  JAT(   193.195) TJD(     0.629)   Mem(   0)
+J    193.210 : PID(208)  JAT(   193.209) TJD(     0.629)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    194.567 : PID(209)  JAT(   194.566) TJD(     2.009)   Mem(   0)
+J    194.582 : PID(209)  JAT(   194.580) TJD(     2.009)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    195.194 : PID(210)  JAT(   195.193) TJD(     2.007)   Mem(   0)
+J    195.208 : PID(210)  JAT(   195.208) TJD(     2.007)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    196.168 : PID(211)  JAT(   196.167) TJD(     1.310)   Mem(   0)
+J    196.183 : PID(211)  JAT(   196.181) TJD(     1.310)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    199.889 : PID(212)  JAT(   199.885) TJD(     1.234)   Mem(   0)
+J    199.903 : PID(212)  JAT(   199.899) TJD(     1.234)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    200.558 : PID(213)  JAT(   200.557) TJD(     1.284)   Mem(   0)
+J    200.572 : PID(213)  JAT(   200.572) TJD(     1.284)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    200.740 : PID(214)  JAT(   200.740) TJD(     2.877)   Mem(   0)
+J    200.754 : PID(214)  JAT(   200.754) TJD(     2.877)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    201.785 : PID(215)  JAT(   201.783) TJD(     2.049)   Mem(   0)
+J    201.798 : PID(215)  JAT(   201.797) TJD(     2.049)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    201.971 : PID(216)  JAT(   201.971) TJD(     0.466)   Mem(   0)
+J    201.984 : PID(216)  JAT(   201.984) TJD(     0.466)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    201.973 : PID(217)  JAT(   201.973) TJD(     1.896)   Mem(   0)
+J    201.986 : PID(217)  JAT(   201.986) TJD(     1.896)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    202.263 : PID(218)  JAT(   202.263) TJD(     0.245)   Mem(   0)
+J    202.276 : PID(218)  JAT(   202.276) TJD(     0.245)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    203.954 : PID(219)  JAT(   203.953) TJD(     2.564)   Mem(   0)
+J    203.967 : PID(219)  JAT(   203.965) TJD(     2.564)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    203.956 : PID(220)  JAT(   203.956) TJD(     0.040)   Mem(   0)
+J    203.969 : PID(220)  JAT(   203.969) TJD(     0.040)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    204.844 : PID(221)  JAT(   204.843) TJD(     2.646)   Mem(   0)
+J    204.856 : PID(221)  JAT(   204.855) TJD(     2.646)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    205.206 : PID(222)  JAT(   205.205) TJD(     0.767)   Mem(   0)
+J    205.218 : PID(222)  JAT(   205.218) TJD(     0.767)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    206.282 : PID(223)  JAT(   206.280) TJD(     0.292)   Mem(   0)
+J    206.294 : PID(223)  JAT(   206.293) TJD(     0.292)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    207.610 : PID(224)  JAT(   207.608) TJD(     0.457)   Mem(   0)
+J    207.622 : PID(224)  JAT(   207.621) TJD(     0.457)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    209.368 : PID(225)  JAT(   209.366) TJD(     3.253)   Mem(   0)
+J    209.380 : PID(225)  JAT(   209.378) TJD(     3.253)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    209.788 : PID(226)  JAT(   209.787) TJD(     0.983)   Mem(   0)
+J    209.800 : PID(226)  JAT(   209.799) TJD(     0.983)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    209.817 : PID(227)  JAT(   209.817) TJD(     0.114)   Mem(   0)
+J    209.830 : PID(227)  JAT(   209.829) TJD(     0.114)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    210.956 : PID(228)  JAT(   210.954) TJD(     1.804)   Mem(   0)
+J    210.968 : PID(228)  JAT(   210.967) TJD(     1.804)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    213.573 : PID(229)  JAT(   213.570) TJD(     0.277)   Mem(   0)
+J    213.585 : PID(229)  JAT(   213.582) TJD(     0.277)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    214.229 : PID(230)  JAT(   214.228) TJD(     0.862)   Mem(   0)
+J    214.241 : PID(230)  JAT(   214.240) TJD(     0.862)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    214.486 : PID(231)  JAT(   214.485) TJD(     0.142)   Mem(   0)
+J    214.497 : PID(231)  JAT(   214.497) TJD(     0.142)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    215.139 : PID(232)  JAT(   215.138) TJD(     0.725)   Mem(   0)
+J    215.151 : PID(232)  JAT(   215.150) TJD(     0.725)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    215.920 : PID(233)  JAT(   215.920) TJD(     0.144)   Mem(   0)
+J    215.933 : PID(233)  JAT(   215.932) TJD(     0.144)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    216.710 : PID(234)  JAT(   216.709) TJD(     0.971)   Mem(   0)
+J    216.722 : PID(234)  JAT(   216.721) TJD(     0.971)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    218.158 : PID(235)  JAT(   218.157) TJD(     0.534)   Mem(   0)
+J    218.171 : PID(235)  JAT(   218.169) TJD(     0.534)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    219.150 : PID(236)  JAT(   219.150) TJD(     0.200)   Mem(   0)
+J    219.164 : PID(236)  JAT(   219.162) TJD(     0.200)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    219.244 : PID(237)  JAT(   219.244) TJD(     1.571)   Mem(   0)
+J    219.257 : PID(237)  JAT(   219.257) TJD(     1.571)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    221.377 : PID(238)  JAT(   221.374) TJD(     1.699)   Mem(   0)
+J    221.390 : PID(238)  JAT(   221.387) TJD(     1.699)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    221.569 : PID(239)  JAT(   221.569) TJD(     0.080)   Mem(   0)
+J    221.582 : PID(239)  JAT(   221.582) TJD(     0.080)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    223.139 : PID(240)  JAT(   223.138) TJD(     3.680)   Mem(   0)
+J    223.152 : PID(240)  JAT(   223.150) TJD(     3.680)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    223.515 : PID(241)  JAT(   223.515) TJD(     0.122)   Mem(   0)
+J    223.528 : PID(241)  JAT(   223.527) TJD(     0.122)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    223.829 : PID(242)  JAT(   223.829) TJD(     0.167)   Mem(   0)
+J    223.842 : PID(242)  JAT(   223.842) TJD(     0.167)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    227.119 : PID(243)  JAT(   227.115) TJD(     0.293)   Mem(   0)
+J    227.131 : PID(243)  JAT(   227.128) TJD(     0.293)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    227.405 : PID(244)  JAT(   227.404) TJD(     0.264)   Mem(   0)
+J    227.417 : PID(244)  JAT(   227.417) TJD(     0.264)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    228.361 : PID(245)  JAT(   228.360) TJD(     0.375)   Mem(   0)
+J    228.374 : PID(245)  JAT(   228.373) TJD(     0.375)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    229.479 : PID(246)  JAT(   229.478) TJD(     0.304)   Mem(   0)
+J    229.492 : PID(246)  JAT(   229.491) TJD(     0.304)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    230.459 : PID(247)  JAT(   230.458) TJD(     0.561)   Mem(   0)
+J    230.472 : PID(247)  JAT(   230.471) TJD(     0.561)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    231.263 : PID(248)  JAT(   231.262) TJD(     0.524)   Mem(   0)
+J    231.275 : PID(248)  JAT(   231.274) TJD(     0.524)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 >>>>>> Begin   Job Queue in NewJobIn from Head
-J    231.796 : PID(249)  JAT(   231.795) TJD(     0.132)   Mem(   0)
+J    231.808 : PID(249)  JAT(   231.807) TJD(     0.132)   Mem(   0)
 >>>>>> End   Job Queue in NewJobIn 
 
 
 
 ********* Behind Thee Scenes Numbers *********************************
 Policy Number = 2, Quantum = 0.005000   Show = 0
-Number of Completed Processes = 161
-ATAT=1.085974   ART=0.087220  CBT = 0.570848  T=0.694306 AWT=0.092919 
+Number of Completed Processes = 159
+ATAT=1.095735   ART=0.092241  CBT = 0.581467  T=0.685645 AWT=0.100338 
 
 ********* Processes Managemenent Numbers ******************************
 Policy Number = 2, Quantum = 0.005000   Show = 0
-Number of Completed Processes = 161
-ATAT=1.085974   ART=0.087220  CBT = 0.570283  T=0.694306 AWT=-0.458880
+Number of Completed Processes = 159
+ATAT=1.095735   ART=0.092240  CBT = 0.580902  T=0.685645 AWT=-0.443524
