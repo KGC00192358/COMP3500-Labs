@@ -1,0 +1,70 @@
+\documentclass[12pt, titlepage]{article}
+\usepackage{amsthm}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\graphicspath{{./images/}}
+\usepackage{titling}
+\usepackage{indentfirst}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\doublespacing{}
+\usepackage[backend=biber, style=authoryear]{biblatex}
+\title{Lab Two Report}
+\author{Paul Clark \\ Kevin Conyers}
+\begin{document}
+\maketitle{}
+\section*{Part One}
+\par{} 
+The objective of this lab is to explore the Data Shared problem between two processes.
+To do this we were provided with code that instantiates a parent process and a child process.
+These two processes share a variable called countptr. 
+Theses two processes are supposed to increment the variable by different values,
+the parent process is supposed to increment by twenty each time it runs, while the child
+process is supposed to increment by two each time it runs.
+So if the parent process is called twice, and the child is called 3 times, the final value is should be forty-six.
+\subsection*{Run Analysis}
+\par{} 
+To test if this is the case, we compile the code in lab2-1.c and run it. 
+If the code is correct we should see that countptr ends up being equal to
+the number of times parent process is called multiplied by twenty plus the number 
+of times child process runs multiplied by two.
+The following is the output from a run of the given code:
+\begin{center}
+	Child process --\textgreater\textgreater counter= 2\\
+Child process --\textgreater\textgreater counter= 4\\
+Child process --\textgreater\textgreater counter= 6\\
+Child process --\textgreater\textgreater counter= 8\\
+Child process --\textgreater\textgreater counter= 10\\
+Child process --\textgreater\textgreater counter= 12\\
+Child process --\textgreater\textgreater counter= 14\\
+Child process --\textgreater\textgreater counter= 16\\
+Child process --\textgreater\textgreater counter= 18\\
+Parent process --\textgreater\textgreater counter = 20\\
+Child process --\textgreater\textgreater counter= 20\\
+Child process --\textgreater\textgreater counter= 22\\
+Child process --\textgreater\textgreater counter= 24\\
+Child process --\textgreater\textgreater counter= 26\\
+Child process --\textgreater\textgreater counter= 28\\
+Child process --\textgreater\textgreater counter= 30\\
+Child process --\textgreater\textgreater counter= 32\\
+Child process --\textgreater\textgreater counter= 34\\
+Child process --\textgreater\textgreater counter= 36\\
+Child process --\textgreater\textgreater counter= 38\\
+Child process --\textgreater\textgreater counter= 40\\
+Parent process --\textgreater\textgreater counter = 40\\
+Child process --\textgreater\textgreater counter= 42\\
+Child process --\textgreater\textgreater counter= 44\\
+Child process --\textgreater\textgreater counter= 46\\
+Child process --\textgreater\textgreater counter= 48\\
+Child process --\textgreater\textgreater counter= 50\\
+Parent process --\textgreater\textgreater counter = 60\\
+\end{center}
+So the child process is called twenty-five times and the parent process is called three times.
+However, counter's final value is sixty, instead of 110 as would be expected.
+So clearly this code is not working as intended.
+\subsection*{}
+\end{document}
