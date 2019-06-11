@@ -26,7 +26,7 @@ Theses two processes are supposed to increment the variable by different values,
 the parent process is supposed to increment by twenty each time it runs, while the child
 process is supposed to increment by two each time it runs.
 So if the parent process is called twice, and the child is called 3 times, the final value is should be forty-six.
-\subsection*{Run Analysis}
+\subsection*{Question One}
 \par{} 
 To test if this is the case, we compile the code in lab2-1.c and run it. 
 If the code is correct we should see that countptr ends up being equal to
@@ -63,8 +63,74 @@ Child process --\textgreater\textgreater counter= 48\\
 Child process --\textgreater\textgreater counter= 50\\
 Parent process --\textgreater\textgreater counter = 60\\
 \end{center}
+\par{}
 So the child process is called twenty-five times and the parent process is called three times.
 However, counter's final value is sixty, instead of 110 as would be expected.
 So clearly this code is not working as intended.
-\subsection*{}
+\subsection*{Question Two}
+\par{}
+The variable countptr is most certainly not a shared variable.
+The changes made by Child Process are not visible by the parent, or vice versa.
+\section*{Part Two}
+\par{}
+In part two we were tasked with modifying lab2-2.c so that Peterson's solution
+was properly implemented.
+\subsection*{Question One}
+\par{}
+This is the run long from the unedited lab2-2.c
+\begin{center}
+Child process --\textgreater\textgreate counter= 5\\
+Child process --\textgreater\textgreater counter= 9\\
+Child process --\textgreater\textgreater counter= 13\\
+Child process --\textgreater\textgreater counter= 17\\
+Child process --\textgreater\textgreater counter= 21\\
+Child process --\textgreater\textgreater counter= 25\\
+Child process --\textgreater\textgreater counter= 29\\
+Child process --\textgreater\textgreater counter= 33\\
+Child process --\textgreater\textgreater counter= 37\\
+Parent process --\textgreater\textgreater counter = 40\\
+Child process --\textgreater\textgreater counter= 41\\
+Child process --\textgreater\textgreater counter= 45\\
+Child process --\textgreater\textgreater counter= 49\\
+Child process --\textgreater\textgreater counter= 53\\
+Parent process --\textgreater\textgreater counter = 66\\
+Child process --\textgreater\textgreater counter= 5\\
+Child process --\textgreater\textgreater counter= 9\\
+Child process --\textgreater\textgreater counter= 13\\
+Child process --\textgreater\textgreater counter= 17\\
+Child process --\textgreater\textgreater counter= 21\\
+Child process --\textgreater\textgreater counter= 25\\
+Child process --\textgreater\textgreater counter= 29\\
+Child process --\textgreater\textgreater counter= 33\\
+Child process --\textgreater\textgreater counter= 36\\
+Child process --\textgreater\textgreater counter= 40\\
+Parent process --\textgreater\textgreater counter = 41\\
+Child process --\textgreater\textgreater counter= 44\\
+Child process --\textgreater\textgreater counter= 48\\
+Child process --\textgreater\textgreater counter= 53\\
+Parent process --\textgreater\textgreater counter = 66\\
+Child process --\textgreater\textgreater counter= 5\\
+Child process --\textgreater\textgreater counter= 9\\
+Child process --\textgreater\textgreater counter= 13\\
+Child process --\textgreater\textgreater counter= 17\\
+Child process --\textgreater\textgreater counter= 21\\
+Child process --\textgreater\textgreater counter= 25\\
+Child process --\textgreater\textgreater counter= 29\\
+Child process --\textgreater\textgreater counter= 33\\
+Child process --\textgreater\textgreater counter= 37\\
+Parent process --\textgreater\textgreater counter = 40\\
+Child process --\textgreater\textgreater counter= 41\\
+Child process --\textgreater\textgreater counter= 45\\
+Child process --\textgreater\textgreater counter= 49\\
+Child process --\textgreater\textgreater counter= 53\\
+Parent process --\textgreater\textgreater counter = 66\\
+\end{center}
+\par{}
+THe counter is vible to both the child an parent process.
+\subsection*{Question Two}
+\par{}
+Clearly this is not functioning as intended, as the counter
+is not increasing by on two's and twenty's
+Instead the counter is increasing unpredictably because 
+access to it is not controlled.
 \end{document}
