@@ -77,60 +77,29 @@ In part two we were tasked with modifying lab2-2.c so that Peterson's solution
 was properly implemented.
 \subsection*{Question One}
 \par{}
-This is the run long from the unedited lab2-2.c
-\begin{center}
-Child process --\textgreater\textgreate counter= 5\\
-Child process --\textgreater\textgreater counter= 9\\
-Child process --\textgreater\textgreater counter= 13\\
-Child process --\textgreater\textgreater counter= 17\\
-Child process --\textgreater\textgreater counter= 21\\
-Child process --\textgreater\textgreater counter= 25\\
-Child process --\textgreater\textgreater counter= 29\\
-Child process --\textgreater\textgreater counter= 33\\
-Child process --\textgreater\textgreater counter= 37\\
-Parent process --\textgreater\textgreater counter = 40\\
-Child process --\textgreater\textgreater counter= 41\\
-Child process --\textgreater\textgreater counter= 45\\
-Child process --\textgreater\textgreater counter= 49\\
-Child process --\textgreater\textgreater counter= 53\\
-Parent process --\textgreater\textgreater counter = 66\\
-Child process --\textgreater\textgreater counter= 5\\
-Child process --\textgreater\textgreater counter= 9\\
-Child process --\textgreater\textgreater counter= 13\\
-Child process --\textgreater\textgreater counter= 17\\
-Child process --\textgreater\textgreater counter= 21\\
-Child process --\textgreater\textgreater counter= 25\\
-Child process --\textgreater\textgreater counter= 29\\
-Child process --\textgreater\textgreater counter= 33\\
-Child process --\textgreater\textgreater counter= 36\\
-Child process --\textgreater\textgreater counter= 40\\
-Parent process --\textgreater\textgreater counter = 41\\
-Child process --\textgreater\textgreater counter= 44\\
-Child process --\textgreater\textgreater counter= 48\\
-Child process --\textgreater\textgreater counter= 53\\
-Parent process --\textgreater\textgreater counter = 66\\
-Child process --\textgreater\textgreater counter= 5\\
-Child process --\textgreater\textgreater counter= 9\\
-Child process --\textgreater\textgreater counter= 13\\
-Child process --\textgreater\textgreater counter= 17\\
-Child process --\textgreater\textgreater counter= 21\\
-Child process --\textgreater\textgreater counter= 25\\
-Child process --\textgreater\textgreater counter= 29\\
-Child process --\textgreater\textgreater counter= 33\\
-Child process --\textgreater\textgreater counter= 37\\
-Parent process --\textgreater\textgreater counter = 40\\
-Child process --\textgreater\textgreater counter= 41\\
-Child process --\textgreater\textgreater counter= 45\\
-Child process --\textgreater\textgreater counter= 49\\
-Child process --\textgreater\textgreater counter= 53\\
-Parent process --\textgreater\textgreater counter = 66\\
-\end{center}
 \par{}
-THe counter is vible to both the child an parent process.
+The counter is visble to both the child an parent process.
 \subsection*{Question Two}
 \par{}
 Clearly this is not functioning as intended, as the counter
 is not increasing by on two's and twenty's
 Instead the counter is increasing unpredictably because 
 access to it is not controlled.
+\section*{Code Report}
+\par{}
+The code that I wrote for this lab works as intended.
+Each process alternative increments to pointer from it's previous by the amount that it should. 
+The current limit is 50, so as soon as the counter value is 50 or more, the processes exit.
+Currently, that means that the final value reached is 
+64 because if the process reaches the critical section,
+it first checks the current value of counter.
+When parent process enters it's critical zone when 
+counter equals 44, it increments by 20.
+Then child process starts again and sees that counter 
+is 64 and exits.
+
+\subsection*{Possible Issues}
+\par{} 
+It is possible that synchronization is not actually enforced.
+This is due to the way C handles mmap files.
 \end{document}
