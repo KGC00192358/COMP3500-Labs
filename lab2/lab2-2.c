@@ -71,7 +71,7 @@ int main(){
 	write(memd,&zero,sizeof(pv));
 
 	variables  = (pv *) mmap(NULL, sizeof(pv), PROT_READ | PROT_WRITE,
-		                     MAP_SHARED, memd, 0);	
+			MAP_SHARED, memd, 0);	
 	if(!variables) {
 		printf("Unable to map variables");
 		exit(1);
@@ -79,44 +79,61 @@ int main(){
 	initialize(variables);
 	close(memd);
 	pid = fork();
-	if (pid == 0) {
-			/* The child increments the counter by two's */
-		while (*countptr < nloop){
+	if (pid == 0) 
+	{
+		while(1) 
+		{
 			//Initialization
 			variables->flag[0] = 1;
 			variables->turn = 1;
 			//Entry
 			while(variables->flag[1] == 1 && variables->turn == 1);
 			//Crit Start
-			add_n(countptr,2);
-			printf("Child process -->> counter = %d\n",*countptr);
+			/* The child increments the counter by two's */
+			if (*countptr < nloop)
+			{
+				add_n(countptr,2);
+				printf("Child process -->> counter = %d\n",*countptr);
+			} else {
+				variables->flag[0] = 0;
+				close(memd);
+				close(fd);
+				break;
+			}
 			//Crit End
+
 			////Exit 
 			variables->flag[0] = 0;
 			close(memd);
+			close(fd);
 
-		}
-		close(fd);
+		}			
 	}
 	else {
-		
-		/* The parent increments the counter by twenty's */
-		while (*countptr < nloop){
+		while(1)
+		{
 			//Initialization
 			variables->flag[1] = 1;
 			variables->turn = 0;
 			//Entry
 			while(variables->flag[0] == 1 && variables->turn == 0);
 			//Crit Start
-			add_n(countptr,20);
-			printf("Parent process -->> counter = %d\n",*countptr);
+			/* The parent increments the counter by twenty's */
+			if (*countptr < nloop){
+				add_n(countptr,20);
+				printf("Parent process -->> counter = %d\n",*countptr);
+			} else {
+				variables->flag[1] = 0;
+				close(memd);
+				close(fd);
+				break;
+			}
 			//Crit End
 			////Exit 
 			variables->flag[1] = 0;
 			close(memd);
-
+			close(fd);
 		}
-		close(fd);
 	}
 }
 
