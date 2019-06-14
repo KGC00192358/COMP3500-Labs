@@ -10,3 +10,4 @@ part-one:
 
 part-two:
 	$(CC) $(FLAGS) -o lab2-2 lab2-2.c
+
