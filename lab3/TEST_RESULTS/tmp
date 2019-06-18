@@ -1,0 +1,10 @@
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    231.803 : PID(249)  JAT(   231.803) TJD(     3.324)   Mem(2801)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+
+********* Behind Thee Scenes Numbers *********************************
+Policy Number = 3, Quantum = 0.050000   Show = 0
+Number of Completed Processes = 235
+ATAT=10.920801   ART=0.461443  CBT = 0.977072  T=1.013764 AWT=9.657717 

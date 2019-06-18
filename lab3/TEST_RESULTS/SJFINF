@@ -1,0 +1,734 @@
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J      1.771 : PID(  0)  JAT(     1.769) TJD(     2.106)   Mem(57079)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J      2.321 : PID(  1)  JAT(     2.321) TJD(     0.331)   Mem(24329)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J      2.456 : PID(  2)  JAT(     2.456) TJD(     0.727)   Mem(23347)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J      2.768 : PID(  3)  JAT(     2.768) TJD(     0.838)   Mem(50964)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J      2.937 : PID(  4)  JAT(     2.937) TJD(     0.301)   Mem(5674)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 1 complete, 0 Processes Completed So Far <<<<<<
+ >>>>>Process # 2 complete, 1 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J      3.724 : PID(  5)  JAT(     3.722) TJD(     0.546)   Mem(25760)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 4 complete, 2 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J      4.289 : PID(  6)  JAT(     4.288) TJD(     0.128)   Mem(10909)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 6 complete, 3 Processes Completed So Far <<<<<<
+ >>>>>Process # 3 complete, 4 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J      5.579 : PID(  7)  JAT(     5.578) TJD(     0.071)   Mem(28713)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 5 complete, 5 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J      5.816 : PID(  8)  JAT(     5.816) TJD(     2.249)   Mem(61661)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 7 complete, 6 Processes Completed So Far <<<<<<
+ >>>>>Process # 0 complete, 7 Processes Completed So Far <<<<<<
+ >>>>>Process # 8 complete, 8 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J      9.486 : PID(  9)  JAT(     9.482) TJD(     0.866)   Mem(10357)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     10.123 : PID( 10)  JAT(    10.122) TJD(     0.758)   Mem(17483)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 9 complete, 9 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     11.284 : PID( 11)  JAT(    11.283) TJD(     2.008)   Mem(50589)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     11.634 : PID( 12)  JAT(    11.633) TJD(     0.245)   Mem(27132)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 10 complete, 10 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     12.067 : PID( 13)  JAT(    12.067) TJD(     0.619)   Mem(45132)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 12 complete, 11 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     12.898 : PID( 14)  JAT(    12.897) TJD(     0.496)   Mem(41553)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     13.668 : PID( 15)  JAT(    13.667) TJD(     1.781)   Mem(62974)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 13 complete, 12 Processes Completed So Far <<<<<<
+ >>>>>Process # 11 complete, 13 Processes Completed So Far <<<<<<
+ >>>>>Process # 14 complete, 14 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     15.605 : PID( 16)  JAT(    15.603) TJD(     1.013)   Mem(62440)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     16.633 : PID( 17)  JAT(    16.632) TJD(     2.061)   Mem(62603)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     16.649 : PID( 18)  JAT(    16.648) TJD(     0.130)   Mem(10039)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     16.744 : PID( 19)  JAT(    16.744) TJD(     2.476)   Mem(62598)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     16.779 : PID( 20)  JAT(    16.778) TJD(     0.195)   Mem(37547)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 15 complete, 15 Processes Completed So Far <<<<<<
+ >>>>>Process # 18 complete, 16 Processes Completed So Far <<<<<<
+ >>>>>Process # 20 complete, 17 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     18.044 : PID( 21)  JAT(    18.042) TJD(     0.491)   Mem(28774)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 16 complete, 18 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     19.025 : PID( 22)  JAT(    19.024) TJD(     3.196)   Mem(50447)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     19.349 : PID( 23)  JAT(    19.349) TJD(     0.768)   Mem(42175)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     19.642 : PID( 24)  JAT(    19.641) TJD(     2.639)   Mem(50803)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     19.994 : PID( 25)  JAT(    19.994) TJD(     1.073)   Mem(5119)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 21 complete, 19 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     20.369 : PID( 26)  JAT(    20.368) TJD(     0.284)   Mem(12958)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 23 complete, 20 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     22.238 : PID( 27)  JAT(    22.236) TJD(     0.165)   Mem(36221)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 26 complete, 21 Processes Completed So Far <<<<<<
+ >>>>>Process # 17 complete, 22 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     23.388 : PID( 28)  JAT(    23.386) TJD(     0.753)   Mem(14204)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     23.703 : PID( 29)  JAT(    23.703) TJD(     0.481)   Mem(31423)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     23.766 : PID( 30)  JAT(    23.765) TJD(     1.852)   Mem(1220)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 27 complete, 23 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     24.460 : PID( 31)  JAT(    24.459) TJD(     0.144)   Mem(6197)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     24.613 : PID( 32)  JAT(    24.613) TJD(     0.493)   Mem(6750)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     24.802 : PID( 33)  JAT(    24.802) TJD(     0.086)   Mem(33688)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 29 complete, 24 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     24.925 : PID( 34)  JAT(    24.925) TJD(     0.511)   Mem(31191)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 31 complete, 25 Processes Completed So Far <<<<<<
+ >>>>>Process # 25 complete, 26 Processes Completed So Far <<<<<<
+ >>>>>Process # 33 complete, 27 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     25.800 : PID( 35)  JAT(    25.799) TJD(     0.115)   Mem(38505)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 32 complete, 28 Processes Completed So Far <<<<<<
+ >>>>>Process # 35 complete, 29 Processes Completed So Far <<<<<<
+ >>>>>Process # 34 complete, 30 Processes Completed So Far <<<<<<
+ >>>>>Process # 19 complete, 31 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     27.304 : PID( 36)  JAT(    27.302) TJD(     1.654)   Mem(45664)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     27.659 : PID( 37)  JAT(    27.659) TJD(     0.390)   Mem(43006)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     27.829 : PID( 38)  JAT(    27.828) TJD(     0.027)   Mem(21906)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     28.052 : PID( 39)  JAT(    28.052) TJD(     0.132)   Mem(39603)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 38 complete, 32 Processes Completed So Far <<<<<<
+ >>>>>Process # 28 complete, 33 Processes Completed So Far <<<<<<
+ >>>>>Process # 39 complete, 34 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     28.921 : PID( 40)  JAT(    28.920) TJD(     0.126)   Mem(30548)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 37 complete, 35 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     30.322 : PID( 41)  JAT(    30.320) TJD(     0.153)   Mem(48335)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 40 complete, 36 Processes Completed So Far <<<<<<
+ >>>>>Process # 30 complete, 37 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     32.347 : PID( 42)  JAT(    32.345) TJD(     0.219)   Mem(32738)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 41 complete, 38 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     32.912 : PID( 43)  JAT(    32.911) TJD(     3.011)   Mem(21919)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 36 complete, 39 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     33.765 : PID( 44)  JAT(    33.764) TJD(     2.187)   Mem(44312)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     34.298 : PID( 45)  JAT(    34.297) TJD(     0.265)   Mem(62817)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     34.444 : PID( 46)  JAT(    34.444) TJD(     0.555)   Mem(25246)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 42 complete, 40 Processes Completed So Far <<<<<<
+ >>>>>Process # 45 complete, 41 Processes Completed So Far <<<<<<
+ >>>>>Process # 46 complete, 42 Processes Completed So Far <<<<<<
+ >>>>>Process # 24 complete, 43 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     40.745 : PID( 47)  JAT(    40.739) TJD(     2.633)   Mem(1629)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 44 complete, 44 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     41.022 : PID( 48)  JAT(    41.021) TJD(     0.064)   Mem(36025)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 43 complete, 45 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     41.905 : PID( 49)  JAT(    41.904) TJD(     1.459)   Mem(20367)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     43.471 : PID( 50)  JAT(    43.469) TJD(     0.890)   Mem(10743)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 48 complete, 46 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     44.248 : PID( 51)  JAT(    44.247) TJD(     1.526)   Mem(47122)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     44.990 : PID( 52)  JAT(    44.989) TJD(     0.411)   Mem(16090)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 49 complete, 47 Processes Completed So Far <<<<<<
+ >>>>>Process # 50 complete, 48 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     47.078 : PID( 53)  JAT(    47.076) TJD(     2.042)   Mem(49503)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 52 complete, 49 Processes Completed So Far <<<<<<
+ >>>>>Process # 47 complete, 50 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     48.045 : PID( 54)  JAT(    48.044) TJD(     2.293)   Mem(24891)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     48.516 : PID( 55)  JAT(    48.515) TJD(     0.778)   Mem(54062)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     49.111 : PID( 56)  JAT(    49.110) TJD(     0.644)   Mem(17371)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 51 complete, 51 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     49.809 : PID( 57)  JAT(    49.808) TJD(     0.639)   Mem(55716)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     49.894 : PID( 58)  JAT(    49.894) TJD(     0.545)   Mem(39719)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     50.389 : PID( 59)  JAT(    50.389) TJD(     0.312)   Mem(14366)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 55 complete, 52 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     50.657 : PID( 60)  JAT(    50.656) TJD(     0.216)   Mem(6117)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     50.764 : PID( 61)  JAT(    50.764) TJD(     0.030)   Mem(40634)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 56 complete, 53 Processes Completed So Far <<<<<<
+ >>>>>Process # 61 complete, 54 Processes Completed So Far <<<<<<
+ >>>>>Process # 59 complete, 55 Processes Completed So Far <<<<<<
+ >>>>>Process # 60 complete, 56 Processes Completed So Far <<<<<<
+ >>>>>Process # 58 complete, 57 Processes Completed So Far <<<<<<
+ >>>>>Process # 57 complete, 58 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     53.471 : PID( 62)  JAT(    53.468) TJD(     0.415)   Mem(5100)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     54.057 : PID( 63)  JAT(    54.056) TJD(     0.442)   Mem(61263)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     54.616 : PID( 64)  JAT(    54.616) TJD(     0.690)   Mem(8145)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 62 complete, 59 Processes Completed So Far <<<<<<
+ >>>>>Process # 63 complete, 60 Processes Completed So Far <<<<<<
+ >>>>>Process # 53 complete, 61 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     56.061 : PID( 65)  JAT(    56.059) TJD(     0.526)   Mem(56643)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 64 complete, 62 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     57.310 : PID( 66)  JAT(    57.309) TJD(     0.177)   Mem(32160)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     57.834 : PID( 67)  JAT(    57.833) TJD(     1.659)   Mem(45891)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 65 complete, 63 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     58.354 : PID( 68)  JAT(    58.353) TJD(     0.757)   Mem(13969)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 54 complete, 64 Processes Completed So Far <<<<<<
+ >>>>>Process # 66 complete, 65 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     60.058 : PID( 69)  JAT(    60.057) TJD(     1.370)   Mem(17520)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 68 complete, 66 Processes Completed So Far <<<<<<
+ >>>>>Process # 67 complete, 67 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     61.560 : PID( 70)  JAT(    61.559) TJD(     1.186)   Mem(29374)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     63.005 : PID( 71)  JAT(    63.003) TJD(     0.387)   Mem(49200)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     63.373 : PID( 72)  JAT(    63.372) TJD(     0.248)   Mem(26263)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 69 complete, 68 Processes Completed So Far <<<<<<
+ >>>>>Process # 71 complete, 69 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     64.357 : PID( 73)  JAT(    64.356) TJD(     0.565)   Mem(58955)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 72 complete, 70 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     64.780 : PID( 74)  JAT(    64.780) TJD(     4.160)   Mem(11513)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     65.222 : PID( 75)  JAT(    65.221) TJD(     0.352)   Mem(50553)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 70 complete, 71 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     65.503 : PID( 76)  JAT(    65.502) TJD(     1.372)   Mem(41813)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 73 complete, 72 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     66.019 : PID( 77)  JAT(    66.018) TJD(     0.907)   Mem(4885)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 75 complete, 73 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     67.397 : PID( 78)  JAT(    67.395) TJD(     0.654)   Mem(33137)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 77 complete, 74 Processes Completed So Far <<<<<<
+ >>>>>Process # 76 complete, 75 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     68.637 : PID( 79)  JAT(    68.635) TJD(     0.371)   Mem(58857)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     69.035 : PID( 80)  JAT(    69.035) TJD(     0.159)   Mem(37597)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 80 complete, 76 Processes Completed So Far <<<<<<
+ >>>>>Process # 79 complete, 77 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     70.731 : PID( 81)  JAT(    70.729) TJD(     0.669)   Mem(37019)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 22 complete, 78 Processes Completed So Far <<<<<<
+ >>>>>Process # 78 complete, 79 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     72.517 : PID( 82)  JAT(    72.515) TJD(     0.399)   Mem(20257)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     72.562 : PID( 83)  JAT(    72.562) TJD(     0.407)   Mem(4740)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 81 complete, 80 Processes Completed So Far <<<<<<
+ >>>>>Process # 82 complete, 81 Processes Completed So Far <<<<<<
+ >>>>>Process # 83 complete, 82 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     74.599 : PID( 84)  JAT(    74.597) TJD(     0.660)   Mem(46911)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     76.762 : PID( 85)  JAT(    76.760) TJD(     0.828)   Mem(46362)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     77.006 : PID( 86)  JAT(    77.005) TJD(     1.183)   Mem(51205)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 84 complete, 83 Processes Completed So Far <<<<<<
+ >>>>>Process # 74 complete, 84 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     79.017 : PID( 87)  JAT(    79.015) TJD(     2.259)   Mem(14177)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 85 complete, 85 Processes Completed So Far <<<<<<
+ >>>>>Process # 86 complete, 86 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     80.648 : PID( 88)  JAT(    80.646) TJD(     0.450)   Mem(36114)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     81.215 : PID( 89)  JAT(    81.214) TJD(     2.368)   Mem(57887)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 88 complete, 87 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     83.093 : PID( 90)  JAT(    83.091) TJD(     1.035)   Mem(22111)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 87 complete, 88 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     84.676 : PID( 91)  JAT(    84.674) TJD(     2.903)   Mem(3022)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     84.880 : PID( 92)  JAT(    84.880) TJD(     0.311)   Mem(26989)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     84.999 : PID( 93)  JAT(    84.999) TJD(     5.222)   Mem(23154)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     85.063 : PID( 94)  JAT(    85.063) TJD(     0.923)   Mem(64017)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 89 complete, 89 Processes Completed So Far <<<<<<
+ >>>>>Process # 90 complete, 90 Processes Completed So Far <<<<<<
+ >>>>>Process # 92 complete, 91 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     88.703 : PID( 95)  JAT(    88.700) TJD(     0.150)   Mem(28862)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     89.055 : PID( 96)  JAT(    89.055) TJD(     2.042)   Mem(12062)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 94 complete, 92 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     90.483 : PID( 97)  JAT(    90.482) TJD(     0.014)   Mem(33784)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     90.588 : PID( 98)  JAT(    90.588) TJD(     0.671)   Mem(26859)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     90.865 : PID( 99)  JAT(    90.864) TJD(     1.733)   Mem(45895)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 91 complete, 93 Processes Completed So Far <<<<<<
+ >>>>>Process # 95 complete, 94 Processes Completed So Far <<<<<<
+ >>>>>Process # 97 complete, 95 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     92.213 : PID(100)  JAT(    92.211) TJD(     2.442)   Mem(9970)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 96 complete, 96 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     93.108 : PID(101)  JAT(    93.107) TJD(     0.403)   Mem(1314)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 98 complete, 97 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     94.538 : PID(102)  JAT(    94.536) TJD(     1.644)   Mem(17530)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 101 complete, 98 Processes Completed So Far <<<<<<
+ >>>>>Process # 99 complete, 99 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     97.108 : PID(103)  JAT(    97.105) TJD(     2.194)   Mem(9627)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     97.869 : PID(104)  JAT(    97.868) TJD(     0.665)   Mem(36700)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     98.570 : PID(105)  JAT(    98.569) TJD(     1.100)   Mem(19536)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 102 complete, 100 Processes Completed So Far <<<<<<
+ >>>>>Process # 100 complete, 101 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J     99.675 : PID(106)  JAT(    99.674) TJD(     2.080)   Mem(13470)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 104 complete, 102 Processes Completed So Far <<<<<<
+ >>>>>Process # 105 complete, 103 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    101.906 : PID(107)  JAT(   101.904) TJD(     0.162)   Mem(54228)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    101.984 : PID(108)  JAT(   101.984) TJD(     0.677)   Mem(46013)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    102.661 : PID(109)  JAT(   102.661) TJD(     0.015)   Mem(30523)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    103.061 : PID(110)  JAT(   103.061) TJD(     0.142)   Mem(49408)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 107 complete, 104 Processes Completed So Far <<<<<<
+ >>>>>Process # 109 complete, 105 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    103.395 : PID(111)  JAT(   103.395) TJD(     0.202)   Mem(24706)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 110 complete, 106 Processes Completed So Far <<<<<<
+ >>>>>Process # 108 complete, 107 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    104.179 : PID(112)  JAT(   104.178) TJD(     0.228)   Mem(39234)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 111 complete, 108 Processes Completed So Far <<<<<<
+ >>>>>Process # 106 complete, 109 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    107.033 : PID(113)  JAT(   107.030) TJD(     0.521)   Mem(43095)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 112 complete, 110 Processes Completed So Far <<<<<<
+ >>>>>Process # 103 complete, 111 Processes Completed So Far <<<<<<
+ >>>>>Process # 113 complete, 112 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    109.795 : PID(114)  JAT(   109.792) TJD(     0.153)   Mem(10549)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 114 complete, 113 Processes Completed So Far <<<<<<
+ >>>>>Process # 93 complete, 114 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    115.618 : PID(115)  JAT(   115.612) TJD(     1.374)   Mem(12475)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    115.653 : PID(116)  JAT(   115.652) TJD(     0.308)   Mem(38636)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    116.037 : PID(117)  JAT(   116.037) TJD(     1.312)   Mem(14518)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    117.025 : PID(118)  JAT(   117.024) TJD(     1.633)   Mem(40218)
+>>>>>> End   Job Queue in NewJobIn 
+
+ >>>>>Process # 116 complete, 115 Processes Completed So Far <<<<<<
+ >>>>>Process # 115 complete, 116 Processes Completed So Far <<<<<<
+ >>>>>Process # 117 complete, 117 Processes Completed So Far <<<<<<
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    119.125 : PID(119)  JAT(   119.123) TJD(     6.147)   Mem(34100)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    119.900 : PID(120)  JAT(   119.899) TJD(     3.084)   Mem(26700)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+>>>>>> Begin   Job Queue in NewJobIn from Head
+J    120.587 : PID(121)  JAT(   120.586) TJD(     0.002)   Mem(24034)
+>>>>>> End   Job Queue in NewJobIn 
+
+
+********* Processes Managemenent Numbers ******************************
+Policy Number = 2, Quantum = 0.005000   Show = 0
+Number of Completed Processes = 118
+ATAT=3.728726   ART=1.081589  CBT = 0.947293  T=0.973707 AWT=1.598857 JQ=0.001252
+ 
