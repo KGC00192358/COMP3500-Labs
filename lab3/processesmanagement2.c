@@ -68,7 +68,7 @@ MemoryQueueParms MemoryQueues[2]; //Free Hole and Parking
 
 Quantity NumberofJobs[MAXMETRICS]; // Number of Jobs for which metric was collected
 Average  SumMetrics[MAXMETRICS]; // Sum for each Metrics
-int MemoryPolicy = PAGING;
+int MemoryPolicy = -1;
 
 int  pagesAvailable = 1048576 / PAGESIZE;
 int  nonavailablePages = 0;
