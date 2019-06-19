@@ -118,7 +118,7 @@ extern Timestamp            Now(void);
  * Input : Queue where to enqueue and Element to enqueue                 *                        
  * Output: Updates Head and Tail as needed                               *                        
  * Function: Enqueues FIFO element in queue and updates tail and head    *                        
-\***********************************************************************/
+***********************************************************************/
 extern void                 EnqueueProcess(Queue whichQueue,
 					   ProcessControlBlock *whichProcess);
 

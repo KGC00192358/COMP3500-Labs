@@ -19,6 +19,7 @@
  \*****************************************************************************/
 
 typedef enum {TAT,RT,CBT,THGT,WT, JQ} Metric;
+typedef enum {FREE,OCCP} MemoryQueue;
 typedef int bool;
 enum { false, true };
 
@@ -41,6 +42,11 @@ enum { false, true };
 
 #define PAGESIZE 	256
 
+#define MAXMEMORYQUEUES 2
+
+#define UNALLOCATED 250
+#define COMPACTION 251
+
 
 
 /*****************************************************************************\
@@ -51,24 +57,30 @@ typedef struct FreeMemoryHoleTag {
 	Memory Size;
 	struct FreeMemoryHoleTag *previous;
 	struct FreeMemoryHoleTag *next;
-} FreeMemoryHole;
+} MemoryHole;
 
 typedef struct MemoryQueueParmsTag {
-	FreeMemoryHole *Head;
-	FreeMemoryHole *Tail;
-	Quantity NumberOfHoles;
+	MemoryHole *Head;
+	MemoryHole *Tail;
 } MemoryQueueParms;
 
-MemoryQueueParms MemoryQueues[2]; //Free Hole and Parking
+MemoryHole init_free_hole = {0, 0, NULL, NULL};
+MemoryHole* point_init_hole = &init_free_hole;
+MemoryQueueParms init_queue_parm = {NULL, NULL};
+MemoryQueueParms* FreeMemory[252];
+MemoryQueueParms* OccupiedMemory[250];
+//MemoryHole FreeMemoryHoles[252];
+//MemoryHole OccupiedMemoryHoles[250];
 
 
 /*****************************************************************************\
  *                                  Global data                                *
  \*****************************************************************************/
 
+Quantity NumberOfFreeHoles;
 Quantity NumberofJobs[MAXMETRICS]; // Number of Jobs for which metric was collected
 Average  SumMetrics[MAXMETRICS]; // Sum for each Metrics
-int MemoryPolicy = PAGING;
+int MemoryPolicy = OMAP;
 
 int  pagesAvailable = 1048576 / PAGESIZE;
 int  nonavailablePages = 0;
@@ -86,8 +98,11 @@ void                 IO();
 void                 CPUScheduler(Identifier whichPolicy);
 ProcessControlBlock *SRTF();
 void                 Dispatcher();
-bool		     lockMemory(ProcessControlBlock* p);
-bool		     freeMemory(ProcessControlBlock* p);
+bool			     lockMemory(ProcessControlBlock* p);
+bool		         releaseMemory(ProcessControlBlock* p);
+bool				 initMemory();
+bool				 findBestFit(ProcessControlBlock* p);
+void				 compaction();
 
 /*****************************************************************************\
  * function: main()                                                            *
@@ -104,7 +119,7 @@ bool		     freeMemory(ProcessControlBlock* p);
 
 int main (int argc, char **argv) {
 	if (Initialization(argc,argv)){
-		ManageProcesses();
+			ManageProcesses();
 	}
 } /* end of main function */
 
@@ -116,6 +131,7 @@ int main (int argc, char **argv) {
 
 void ManageProcesses(void){
 	ManagementInitialization();
+	initMemory();
 	while (1) {
 		IO();
 		CPUScheduler(PolicyNumber);
@@ -228,6 +244,7 @@ ProcessControlBlock *SRTF() {
  *              else move process from running queue to Exit Queue      *     
  \***********************************************************************/
 void Dispatcher() {
+	printf("Dispatcher Called");
 	double start;
 	ProcessControlBlock *processOnCPU = Queues[RUNNINGQUEUE].Tail; // Pick Process on CPU
 	if (!processOnCPU) { // No Process in Running Queue, i.e., on CPU
@@ -244,7 +261,7 @@ void Dispatcher() {
 				processOnCPU->ProcessID,NumberofJobs[THGT]);   
 		processOnCPU=DequeueProcess(RUNNINGQUEUE);
 		EnqueueProcess(EXITQUEUE,processOnCPU);
-		freeMemory(processOnCPU);
+		releaseMemory(processOnCPU);
 		NumberofJobs[THGT]++;
 		NumberofJobs[TAT]++;
 		NumberofJobs[WT]++;
@@ -338,13 +355,13 @@ void LongtermScheduler(void){
 	ProcessControlBlock *currentProcess = DequeueProcess(JOBQUEUE);
 	while (currentProcess) {
 		if(lockMemory(currentProcess) == true) {	
-		currentProcess->TimeInJobQueue = Now() - currentProcess->JobArrivalTime; // Set TimeInJobQueue
-		currentProcess->JobStartTime = Now(); // Set JobStartTime
-		EnqueueProcess(READYQUEUE,currentProcess); // Place process in Ready Queue
-		currentProcess->state = READY; // Update process state
-		NumberofJobs[JQ]++;
-		SumMetrics[JQ] += currentProcess->TimeInJobQueue;
-		currentProcess = DequeueProcess(JOBQUEUE);
+			currentProcess->TimeInJobQueue = Now() - currentProcess->JobArrivalTime; // Set TimeInJobQueue
+			currentProcess->JobStartTime = Now(); // Set JobStartTime
+			EnqueueProcess(READYQUEUE,currentProcess); // Place process in Ready Queue
+			currentProcess->state = READY; // Update process state
+			NumberofJobs[JQ]++;
+			SumMetrics[JQ] += currentProcess->TimeInJobQueue;
+			currentProcess = DequeueProcess(JOBQUEUE);
 		} else 
 		{
 			return;
@@ -389,16 +406,19 @@ bool lockMemory(ProcessControlBlock *p){
 			EnqueueProcess(JOBQUEUE, p);
 			return false;
 		}
+	} else if (MemoryPolicy == BESTFIT){
+			return findBestFit(p);
+		
 	} else {
-		//Memory is infinite
+		//memory is initinte
 	}
 	return true;
 }
 
-bool freeMemory(ProcessControlBlock *p){
+bool releaseMemory(ProcessControlBlock *p){
 	if(MemoryPolicy == OMAP) {
 		AvailableMemory += p->MemoryRequested;
-		
+
 	}
 	else if (MemoryPolicy == PAGING) {
 		int pagesUsed = (p->MemoryRequested / PAGESIZE);
@@ -408,6 +428,131 @@ bool freeMemory(ProcessControlBlock *p){
 		pagesAvailable += pagesUsed;
 		nonavailablePages -= pagesUsed;
 
+	} else if (MemoryPolicy == BESTFIT) {
+		FreeMemory[p->ProcessID] = OccupiedMemory[p->ProcessID];
+		OccupiedMemory[p->ProcessID];
 	}
 	return true;
+}
+bool initMemory() {
+	init_free_hole.Size = AvailableMemory;
+	NumberOfFreeHoles = 0;
+	printf("freeHoleInited\n");
+    FreeMemory[UNALLOCATED] = &init_queue_parm;	
+	FreeMemory[COMPACTION] = &init_queue_parm;
+	FreeMemory[UNALLOCATED]->Head = point_init_hole;
+	FreeMemory[UNALLOCATED]->Tail = point_init_hole;
+	printf("head and tail done \n");
+	int i = 0;
+	while(i < 250) {
+		FreeMemory[i] = &init_queue_parm;
+		OccupiedMemory[i] = &init_queue_parm;
+	}
+
+	return true;
+}
+
+bool findBestFit(ProcessControlBlock* p) 
+{
+	Memory memReq = p->MemoryRequested;
+	if(NumberOfFreeHoles == 0) 
+	{
+		if(FreeMemory[UNALLOCATED]->Head->Size >= memReq) 
+		{
+			FreeMemory[UNALLOCATED]->Head->Size -= memReq;
+			MemoryHole newHole;
+			newHole.Size = memReq;
+			newHole.AddressFirstElement = p->ProcessID;
+			OccupiedMemory[p->ProcessID]->Head = &newHole;
+			return true;
+		} else 
+		{
+			return false;
+		}	
+	}
+	//Iterate through the free memory and see if there is a best fit
+	//block available
+	MemoryHole* bestHole = NULL;
+	Memory diff = MAXMEMORYSIZE;
+	int i = 0;
+   while(i<250)
+	{
+		if(FreeMemory[i]) 
+		{
+			if(FreeMemory[i]->Head->Size == p->MemoryRequested) 
+			{
+				OccupiedMemory[p->ProcessID]->Head = FreeMemory[i]->Head;			
+				OccupiedMemory[p->ProcessID]->Tail = FreeMemory[i]->Tail;
+				FreeMemory[i]->Head = NULL;
+				FreeMemory[i]->Tail = NULL;
+
+
+			}else if(FreeMemory[i]->Head->Size - memReq < diff) 
+			{
+				diff = FreeMemory[i]->Head->Size - memReq;
+				bestHole = FreeMemory[i]->Head;	
+			}
+		}
+		i++;
+	}
+	if(bestHole) //found a best fit hole
+	{
+		FreeMemory[bestHole->AddressFirstElement]->Head = NULL;
+		OccupiedMemory[p->ProcessID]->Head = bestHole;
+		return true;
+	}
+	//Else, if there is enough unallocated space, allocate a new hole
+	if(FreeMemory[UNALLOCATED]->Head->Size >= memReq) 
+	{
+			FreeMemory[UNALLOCATED]->Head->Size -= memReq;
+			MemoryHole* newHole;
+			newHole->Size = memReq;
+			newHole->AddressFirstElement = p->ProcessID;
+			OccupiedMemory[p->ProcessID]->Head = newHole;
+			newHole = NULL;
+			return true;
+
+	}
+	//finally, run compaction and then see if there is some cleared up memory
+	compaction();
+	MemoryHole* tmp = FreeMemory[COMPACTION]->Head;
+	MemoryHole* itr = FreeMemory[COMPACTION]->Head;
+	FreeMemory[COMPACTION]->Head = tmp->next;
+	if(tmp) {
+		while(tmp->Size < memReq && itr != NULL) {
+			tmp->Size += FreeMemory[COMPACTION]->Head->Size;
+		    itr = itr->next;	
+		}
+		if(tmp->Size >= memReq) {
+			tmp->AddressFirstElement = p->ProcessID;	
+		    OccupiedMemory[p->ProcessID];
+			return true;	
+		} else {
+			return false;
+		}
+	} else {
+		return false;
+	}
+	return false;
+}
+void compaction() 
+{
+	int i = 0;
+    while(i<250) 
+	{
+		if(FreeMemory[i]->Head) 
+		{
+			if(FreeMemory[COMPACTION]->Head == NULL) 
+			{
+				FreeMemory[COMPACTION]->Head = FreeMemory[i]->Head;
+				FreeMemory[COMPACTION]->Tail = FreeMemory[COMPACTION]->Head;
+				FreeMemory[i]->Head = NULL;
+			} else 
+			{
+				FreeMemory[COMPACTION]->Tail->next = FreeMemory[i]->Head;
+				FreeMemory[COMPACTION]->Tail = FreeMemory[i]->Head;	
+			}
+		}
+		i++;
+	}	
 }
