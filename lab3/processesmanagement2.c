@@ -40,14 +40,15 @@ enum { false, true };
 #define NONE            -1
 
 #define PAGESIZE 	8192
-
+#define FREEMEM		0
+#define COMPACT		1
 
 
 /*****************************************************************************\
  *                            Global data structures                           *
  \*****************************************************************************/
 typedef struct FreeMemoryHoleTag {
-	Memory AddressFirstElement;
+	Memory Address;
 	Memory Size;
 	struct FreeMemoryHoleTag *previous;
 	struct FreeMemoryHoleTag *next;
@@ -58,8 +59,10 @@ typedef struct MemoryQueueParmsTag {
 	FreeMemoryHole *Tail;
 	Quantity NumberOfHoles;
 } MemoryQueueParms;
-
-MemoryQueueParms MemoryQueues[2]; //Free Hole and Parking
+FreeMemoryHole generic;
+MemoryQueueParms* MemoryQueues[2]; //Free and Compaction
+FreeMemoryHole* FreeHead = NULL;
+FreeMemoryHole* FreeTail = NULL;
 
 
 /*****************************************************************************\
@@ -68,7 +71,7 @@ MemoryQueueParms MemoryQueues[2]; //Free Hole and Parking
 
 Quantity NumberofJobs[MAXMETRICS]; // Number of Jobs for which metric was collected
 Average  SumMetrics[MAXMETRICS]; // Sum for each Metrics
-int MemoryPolicy = PAGING;
+int MemoryPolicy = BESTFIT;
 
 int  pagesAvailable = 1048576 / PAGESIZE;
 int  nonavailablePages = 0;
@@ -87,7 +90,9 @@ void                 CPUScheduler(Identifier whichPolicy);
 ProcessControlBlock *SRTF();
 void                 Dispatcher();
 bool		     lockMemory(ProcessControlBlock* p);
-bool		     freeMemory(ProcessControlBlock* p);
+bool		     freeMemory(FreeMemoryHole** Head, FreeMemoryHole** Tail, ProcessControlBlock* p);
+bool			 bestFitFind(FreeMemoryHole** Head, FreeMemoryHole** Tail, ProcessControlBlock* p);
+bool			 worstFitFind(ProcessControlBlock* p);
 
 /*****************************************************************************\
  * function: main()                                                            *
@@ -116,6 +121,10 @@ int main (int argc, char **argv) {
 
 void ManageProcesses(void){
 	ManagementInitialization();
+	MemoryQueueParms Free = {NULL, NULL};
+	MemoryQueueParms Comp = {NULL, NULL};
+	MemoryQueues[FREEMEM] = &Free;
+	MemoryQueues[COMPACT] = &Comp;
 	while (1) {
 		IO();
 		CPUScheduler(PolicyNumber);
@@ -244,7 +253,7 @@ void Dispatcher() {
 				processOnCPU->ProcessID,NumberofJobs[THGT]);   
 		processOnCPU=DequeueProcess(RUNNINGQUEUE);
 		EnqueueProcess(EXITQUEUE,processOnCPU);
-		freeMemory(processOnCPU);
+		freeMemory(&FreeHead, &FreeTail, processOnCPU);
 		NumberofJobs[THGT]++;
 		NumberofJobs[TAT]++;
 		NumberofJobs[WT]++;
@@ -347,6 +356,7 @@ void LongtermScheduler(void){
 		currentProcess = DequeueProcess(JOBQUEUE);
 		} else 
 		{
+			EnqueueProcess(JOBQUEUE, currentProcess);
 			return;
 		}
 	}
@@ -389,13 +399,18 @@ bool lockMemory(ProcessControlBlock *p){
 			EnqueueProcess(JOBQUEUE, p);
 			return false;
 		}
+	} else if (MemoryPolicy == BESTFIT) {
+		if(bestFitFind(&FreeHead, &FreeTail, p) == false){
+			printf("Not enough contigous memory\n");
+			return false;
+		}			
 	} else {
 		//Memory is infinite
 	}
 	return true;
 }
 
-bool freeMemory(ProcessControlBlock *p){
+bool freeMemory(FreeMemoryHole** Head, FreeMemoryHole** Tail, ProcessControlBlock *p){
 	if(MemoryPolicy == OMAP) {
 		AvailableMemory += p->MemoryRequested;
 		
@@ -408,6 +423,79 @@ bool freeMemory(ProcessControlBlock *p){
 		pagesAvailable += pagesUsed;
 		nonavailablePages -= pagesUsed;
 
+	} else if (MemoryPolicy == BESTFIT) {
+		if(*Tail != NULL) {
+			FreeMemoryHole* new = malloc(sizeof(FreeMemoryHole));
+			new->Size = p->MemoryAllocated;
+			new->Address=p->ProcessID;
+			new->previous = *Tail;
+			new->next = NULL;
+			(*Tail)->next = new;
+			*Tail = new;
+
+		} else{
+			FreeMemoryHole* new = malloc(sizeof(FreeMemoryHole));
+			new->Size = p->MemoryAllocated;
+			new->Address=p->ProcessID;
+			new->previous = NULL;
+			new->next = NULL;
+			*Head = new;
+			*Tail = new;
+
+		}	
 	}
 	return true;
+}
+
+bool bestFitFind(FreeMemoryHole** Head, FreeMemoryHole** Tail, ProcessControlBlock* p) {
+	if(AvailableMemory >= p->MemoryRequested) {
+		AvailableMemory -= p->MemoryRequested;
+		p->MemoryAllocated = p->MemoryRequested;
+		return true;
+	} else if (Head != NULL){
+		FreeMemoryHole* test = *Head;
+		FreeMemoryHole* bestFit = NULL;
+		Memory bestDif = 1000000000;
+		int i = 0;
+		while(test != NULL) {
+			i += 1;
+			Memory memDif = (test->Size) - (p->MemoryRequested);
+			if(test->Size == p->MemoryRequested) {
+				bestFit = test;
+			} else if (memDif <= bestDif && test->Size && memDif > 0) {
+				bestDif= memDif;
+				bestFit = test;
+			}
+			test = test->next;
+		}
+		if(bestFit != NULL) {
+			if(bestFit->previous != NULL && bestFit->next != NULL) {
+			bestFit->previous->next = bestFit->next;
+			bestFit->next->previous = bestFit->previous;
+			} else if (bestFit->previous != NULL) {
+				bestFit->previous->next = NULL;
+				*Tail = bestFit->previous;
+			} else if (bestFit->next != NULL) {
+				bestFit->next->previous = NULL;
+			}
+			p->MemoryAllocated = bestFit->Size;
+			free(bestFit);
+			return true;
+		}
+		test = *Head;
+		Memory memSum = 0;
+		while(test != NULL && memSum < p->MemoryRequested) {
+				memSum += test->Size;
+				test = test->next;
+		}
+		if(test != NULL) {
+			p->MemoryAllocated = memSum;
+			if(test->previous != NULL) {
+				test->previous = NULL;
+			}
+			(*Head) = test;
+			return true;
+		}
+	}
+	return false;
 }
