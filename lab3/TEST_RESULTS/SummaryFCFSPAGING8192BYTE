@@ -1,0 +1,11 @@
+Summary for FCFSPAGING8192BYTE
+********* Behind Thee Scenes Numbers *********************************
+Policy Number = 1, Quantum = 0.005000   Show = 0
+Number of Completed Processes = 229
+ATAT=17.199245   ART=3.416156  CBT = 0.972725  T=0.987559 AWT=14.498087 
+
+********* Processes Managemenent Numbers ******************************
+Policy Number = 1, Quantum = 0.005000   Show = 0
+Number of Completed Processes = 229
+ATAT=17.199246   ART=3.416155  CBT = 0.971155  T=0.987559 AWT=11.613226 JQ=135.026677
+

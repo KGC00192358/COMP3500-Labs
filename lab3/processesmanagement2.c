@@ -39,7 +39,7 @@ enum { false, true };
 #define WORSTFIT        3
 #define NONE            -1
 
-#define PAGESIZE 	256
+#define PAGESIZE 	8192
 
 
 
@@ -68,7 +68,7 @@ MemoryQueueParms MemoryQueues[2]; //Free Hole and Parking
 
 Quantity NumberofJobs[MAXMETRICS]; // Number of Jobs for which metric was collected
 Average  SumMetrics[MAXMETRICS]; // Sum for each Metrics
-int MemoryPolicy = OMAP;
+int MemoryPolicy = PAGING;
 
 int  pagesAvailable = 1048576 / PAGESIZE;
 int  nonavailablePages = 0;

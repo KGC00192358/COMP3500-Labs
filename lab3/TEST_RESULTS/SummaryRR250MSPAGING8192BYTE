@@ -1,0 +1,11 @@
+Summary for RR250MSPAGING8192BYTE
+********* Behind Thee Scenes Numbers *********************************
+Policy Number = 3, Quantum = 0.250000   Show = 0
+Number of Completed Processes = 229
+ATAT=14.501479   ART=1.979938  CBT = 0.981247  T=0.987049 AWT=12.613912 
+
+********* Processes Managemenent Numbers ******************************
+Policy Number = 3, Quantum = 0.250000   Show = 0
+Number of Completed Processes = 229
+ATAT=14.501479   ART=1.979937  CBT = 0.980217  T=0.987049 AWT=10.697698 JQ=40.534627
+
